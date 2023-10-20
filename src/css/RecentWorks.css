@@ -1,0 +1,13 @@
+.recentWorkContainer {
+  width: 100%;
+  background-color: green;
+}
+.projectCardContainer {
+  width: 100%;
+  background: url(../assets/project_section_bg.png),
+    linear-gradient(270deg, #006ca9 0%, #05af96 100.49%), #003b7e;
+  background-size: cover;
+  background-blend-mode: multiply, normal, normal;
+  height: 100%;
+  padding: 5%;
+}
