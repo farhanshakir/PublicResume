@@ -1,0 +1,39 @@
+.digitalCardContainer {
+  width: 100%;
+  padding: 5%;
+}
+.digitalCardImage {
+  width: 100%;
+}
+.digitalCardImage img {
+  width: 100%;
+}
+.digitalCardContentDiv {
+  width: 100%;
+  margin-top: -8%;
+}
+.digitalCardContentDiv h3 {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #003b7e;
+}
+.digitalCardList h4 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #454238;
+  margin: 5% 0 3% 0;
+}
+.digitalCardListBullets {
+  display: flex;
+  margin: 1% 0;
+  align-items: center;
+  gap: 3%;
+}

@@ -1,0 +1,66 @@
+.contactInfoContainer {
+  width: 100%;
+  background: linear-gradient(90deg, #3378ff 0%, #9442fe 100%);
+  padding: 8% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.contactInfoImageDiv {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.contactInfoImageDiv img {
+  width: 70%;
+}
+.contactInfoContentDiv {
+  width: 40%;
+}
+.contactInfoContentDiv h3 {
+  color: #ffffff;
+  font-family: 'Nunito Sans-Bold', Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+.contactInfoLinksDiv {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin: 5% 0;
+}
+.contactInfoIcons {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactInfoIcons img {
+  width: 100%;
+}
+.contactInfoLinks p {
+  color: #ffffff;
+  font-family: 'DM Sans-Regular', Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23.8px;
+  white-space: nowrap;
+}
+.contactInfoLinks a {
+  color: #ffffff;
+  font-family: 'DM Sans-Medium', Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 23.8px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
