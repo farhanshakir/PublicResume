@@ -1,4 +1,87 @@
 /* Header Component Style */
-h1 {
-  color: red;
+.headerContainer {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(90deg, #3378ff 0%, #9442fe 100%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+.headerTextContainer {
+  width: 55%;
+}
+.headerTextContainer h3 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.headerTextContainer h1 {
+  font-family: 'Antonio', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin: 2% 0;
+}
+.headerTextContainer p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.headerBtncontainer {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.headerBtncontainer button {
+  padding: 1% 4%;
+  margin: 3% 0;
+}
+.headerLocationBtn {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #ffffff;
+  border-radius: 50px;
+  border: none;
+}
+.headerEmailBtn {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+.headerImageDiv {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.headerImageDiv img {
+  width: 90%;
 }

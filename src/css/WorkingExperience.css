@@ -1,0 +1,114 @@
+.workingExperienceContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 5%;
+  background: linear-gradient(127.16deg, #2e2f32 11.06%, #101111 85.05%, #000000 91.55%);
+}
+.workingExperienceContainer h2 {
+  font-family: Antonio;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.workingExperienceContentDiv {
+  margin-top: 2%;
+  width: 70%;
+}
+.workingExperienceSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0;
+  margin: 1% 0;
+}
+.workingExperienceSideBullets {
+  width: 2%;
+  height: 100%;
+  padding-top: 0.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.workingExperienceSideLine {
+  width: 2px;
+  height: 100px;
+  background-color: #2e2e48;
+}
+.workingExperienceSummaryDiv {
+  width: 45%;
+}
+.workingExperienceDate {
+  width: 50%;
+  display: flex;
+  gap: 6%;
+}
+.workingExperienceSummaryDiv p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffffff;
+}
+.workingExperienceLocation {
+  display: flex;
+  gap: 5%;
+}
+.workingExperienceCompanyDiv {
+  display: flex;
+  gap: 4%;
+  width: 100%;
+  margin-top: 2%;
+  align-items: center;
+}
+.workingExperienceCompanyImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+.workingExperienceCompanyImage img {
+  width: 100%;
+  height: 100%;
+}
+.workingExperienceCompanyPosition {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.workingExperienceCompanyPosition h3 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffffff;
+}
+.workingExperienceCompanyPosition p {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.workingExperiencePointsDiv {
+  width: 48%;
+}
+.workingExperiencePointsDiv ul {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
