@@ -1,7 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 // Init
 import React from 'react';
+import PlaceIcon from '@mui/icons-material/Place';
+import EmailIcon from '@mui/icons-material/Email';
 import Farhan from '../assets/farhanHeader.png';
+import FarhanMob from '../assets/farhan.png';
 import Path from '../assets/path.svg';
 
 // Component
@@ -10,7 +13,18 @@ export default function Header() {
     <div className="headerContainer">
       <div className="headerTextContainer">
         <h3>Sr. UI/UX Designer | Google UX Design Pro Certified</h3>
-        <h1>I’M Adeel B.</h1>
+        <h1>I’M Farhan S.</h1>
+        <h4>
+          Sr. UI/UX Designer <br /> Google UX Design Pro Certified
+        </h4>
+        <div className="headerBtncontainerMob">
+          <button type="button" className="headerLocationBtn">
+            <PlaceIcon sx={{ color: '#0E88FA' }} /> Lahore, Pakistan
+          </button>
+          <button type="button" className="headerEmailBtn">
+            <EmailIcon /> farhan11.fk22@gmail.com
+          </button>
+        </div>
         <p>
           Hello! I'm an accomplished UI/UX Designer, dedicated to creating exceptional user
           experiences. With a programming background & 5 years of experience in the field, I bring a
@@ -25,15 +39,18 @@ export default function Header() {
         </p>
         <div className="headerBtncontainer">
           <button type="button" className="headerLocationBtn">
-            Lahore, Pakistan
+            <PlaceIcon sx={{ color: '#0E88FA' }} /> Lahore, Pakistan
           </button>
           <button type="button" className="headerEmailBtn">
-            farhan11.fk22@gmail.com
+            <EmailIcon /> farhan11.fk22@gmail.com
           </button>
         </div>
       </div>
       <div className="headerImageDiv">
         <img src={Farhan} alt="header" />{' '}
+      </div>
+      <div className="headerImageDivMob">
+        <img src={FarhanMob} alt="header" />{' '}
       </div>
       <div className="headerPathDiv">
         <img src={Path} alt="path" />
