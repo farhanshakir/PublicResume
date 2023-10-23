@@ -13,6 +13,7 @@ export default function ProjectCard(props) {
     tag2,
     tag3,
     bgImage,
+    bgImageMob,
     gradientColor1,
     gradientColor2,
   } = props;
@@ -54,7 +55,10 @@ export default function ProjectCard(props) {
           </div>
         </div>
         <div className="projectCardImageDiv">
-          <img src={bgImage} alt="Repisodic" />
+          <img src={bgImage} alt="ProjectImage" />
+        </div>
+        <div className="projectCardImageDivMob">
+          <img src={bgImageMob} alt="ProjectImage" />
         </div>
       </div>
     </div>

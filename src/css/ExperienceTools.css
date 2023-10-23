@@ -14,6 +14,7 @@
   letter-spacing: 0;
   line-height: 58px;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 .experienceToolsTagsDiv {
   width: 100%;
@@ -33,7 +34,7 @@
   width: 100%;
 }
 .ToolTagsContainer img {
-  width: 60%;
+  width: 50%;
 }
 .ToolTagsContainer h4 {
   color: #2d2d47;
@@ -54,4 +55,71 @@
   line-height: normal;
   text-align: center;
   width: 80%;
+}
+@media only screen and (max-width: 1500px) {
+  .experienceToolsContainer h2 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .ToolTagsContainer img {
+    width: 40%;
+  }
+  .experienceToolsTagsDiv {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ToolTagsContainer {
+    width: 20%;
+    margin: 1% 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .ToolTagsContainer {
+    width: 23%;
+  }
+  .ToolTagsContainer h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .ToolTagsContainer p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ToolTagsContainer img {
+    width: 35%;
+  }
+  .ToolTagsContainer {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .experienceToolsContainer h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ToolTagsContainer h4 {
+    font-size: 20px;
+  }
+  .experienceToolsContainer h2 {
+    font-size: 28px;
+  }
+  .experienceToolsTagsDiv {
+    gap: 5%;
+  }
+  .ToolTagsContainer {
+    width: 43%;
+    margin: 2% 0;
+    padding: 5% 1%;
+  }
+  .ToolTagsContainer img {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .experienceToolsContainer h2 {
+    font-size: 24px;
+  }
 }

@@ -38,7 +38,6 @@
   margin-left: 5%;
   width: 35%;
   z-index: 2;
-  /* padding: 10% 0; */
 }
 .projectCardLogoDiv {
   width: 100%;
@@ -73,7 +72,7 @@
   display: flex;
   align-items: flex-start;
   gap: 2%;
-  white-space: nowrap;
+  flex-wrap: wrap;
   margin-top: 3%;
 }
 .projectCardTag {
@@ -81,6 +80,7 @@
   background-color: #ffffff;
   border-radius: 50px;
   padding: 2% 4%;
+  margin: 1% 0;
 }
 .projectCardTag p {
   -webkit-background-clip: text !important;
@@ -101,12 +101,92 @@
   right: 0;
   bottom: 0;
   display: flex;
-  width: 100%;
+  width: 60%;
   height: 100%;
   z-index: 1;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
 }
 .projectCardImageDiv img {
-  height: 100%;
   object-fit: contain;
+  width: 100%;
+}
+.projectCardImageDivMob {
+  display: none;
+}
+@media only screen and (max-width: 1366px) {
+  .projectCardTag p {
+    font-size: 18px;
+  }
+  .projectCardLogoDiv img {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .projectCardDiv {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .projectCardContainer {
+    padding-left: 5%;
+  }
+  .projectCardDiv {
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .projectCardContentDiv {
+    margin-left: 5%;
+    width: 85%;
+    z-index: 2;
+  }
+  .projectCardImageDiv {
+    display: none;
+  }
+  .projectCardImageDivMob {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .projectCardImageDivMob img {
+    width: 70%;
+  }
+  .projectCardLogoDiv {
+    margin-top: 5%;
+  }
+
+  .projectCardLogoDiv img {
+    width: 45%;
+  }
+  .projectCardDesp {
+    width: 100%;
+    margin: 3% 0;
+  }
+  .projectCardDesp p {
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .projectCardImageDivMob img {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .projectCardContentDiv {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    z-index: 2;
+  }
+  .projectCardContainer {
+    padding-left: 0;
+  }
+  .projectCardImageDivMob img {
+    width: 100%;
+  }
 }

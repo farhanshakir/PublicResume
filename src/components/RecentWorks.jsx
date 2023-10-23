@@ -3,11 +3,15 @@ import React from 'react';
 import ProjectCard from './common/ProjectCard';
 import RepisodicLogo from '../assets/repisodic_logo.svg';
 import Repisodic from '../assets/repisodic.png';
+import RepisodicMob from '../assets/repisodicMob.png';
 import SalesPro from '../assets/salesPro.png';
+import SalesProMob from '../assets/salesproMob.png';
 import SalesProLogo from '../assets/salesPro_logo.svg';
 import Kidcab from '../assets/kidcab.png';
+import KidcabMob from '../assets/kidcabMob.png';
 import KidcabLogo from '../assets/kidcab_logo.svg';
 import Bibo from '../assets/bibo.png';
+import BiboMob from '../assets/biboMob.png';
 import BiboLogo from '../assets/bibo_logo.svg';
 
 // Component
@@ -27,6 +31,7 @@ export default function RecentWorks() {
         tag2="Health Management"
         tag3="Patient Care"
         bgImage={Repisodic}
+        bgImageMob={RepisodicMob}
         gradientColor1="#006ca9"
         gradientColor2="#05af96"
       />
@@ -39,6 +44,7 @@ export default function RecentWorks() {
         tag2="E-Commerce"
         tag3="Business/Productivity"
         bgImage={SalesPro}
+        bgImageMob={SalesProMob}
         gradientColor1="#236FDA"
         gradientColor2="#2A7FF8"
       />
@@ -51,6 +57,7 @@ export default function RecentWorks() {
         tag2="Child Services"
         tag3="FamilyTech"
         bgImage={Kidcab}
+        bgImageMob={KidcabMob}
         gradientColor1="#47B9B4"
         gradientColor2="#47B9B4"
       />
@@ -63,6 +70,7 @@ export default function RecentWorks() {
         tag2="RetailTech"
         tag3="Mobile Payments"
         bgImage={Bibo}
+        bgImageMob={BiboMob}
         gradientColor1="#006BA6"
         gradientColor2="#006BA6"
       />

@@ -5,11 +5,11 @@ import React from 'react';
 import Header from '../components/Header';
 import WorkingExperience from '../components/WorkingExperience';
 import DigitalExperience from '../components/DigitalExperience';
-import ContactInfo from '../components/ContactInfo';
-import ExperienceTools from '../components/ExperienceTools';
 import RecentWorks from '../components/RecentWorks';
 import Education from '../components/Education';
 import Certification from '../components/Certification';
+import ExperienceTools from '../components/ExperienceTools';
+import ContactInfo from '../components/ContactInfo';
 import Footer from '../components/Footer';
 
 // Home Component

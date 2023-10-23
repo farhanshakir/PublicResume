@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable react/no-unescaped-entities */
 // Init
 import React from 'react';
@@ -9,6 +10,8 @@ import Behance from '../assets/behance.svg';
 
 // Component
 export default function ContactInfo() {
+  const { innerWidth } = window;
+  console.log('innerWidth', innerWidth);
   return (
     <div className="contactInfoContainer">
       <div className="contactInfoImageDiv">
@@ -19,7 +22,10 @@ export default function ContactInfo() {
         <div className="contactInfoLinksContainer">
           <div className="contactInfoLinksDiv">
             <div className="contactInfoIcons">
-              <RingVolumeIcon sx={{ color: '#0E88FA' }} fontSize="large" />
+              <RingVolumeIcon
+                sx={{ color: '#0E88FA' }}
+                fontSize={innerWidth < 768 ? 'small' : innerWidth < 1366 ? 'medium' : 'large'}
+              />
             </div>
             <div className="contactInfoLinks">
               <p>For Call</p>
@@ -28,7 +34,10 @@ export default function ContactInfo() {
           </div>
           <div className="contactInfoLinksDiv">
             <div className="contactInfoIcons">
-              <MarkEmailUnreadIcon sx={{ color: '#0E88FA' }} fontSize="large" />
+              <MarkEmailUnreadIcon
+                sx={{ color: '#0E88FA' }}
+                fontSize={innerWidth < 768 ? 'small' : innerWidth < 1366 ? 'medium' : 'large'}
+              />
             </div>
             <div className="contactInfoLinks">
               <p>Email</p>
@@ -37,7 +46,10 @@ export default function ContactInfo() {
           </div>
           <div className="contactInfoLinksDiv">
             <div className="contactInfoIcons">
-              <LinkedInIcon sx={{ color: '#0E88FA' }} fontSize="large" />
+              <LinkedInIcon
+                sx={{ color: '#0E88FA' }}
+                fontSize={innerWidth < 768 ? 'small' : innerWidth < 1366 ? 'medium' : 'large'}
+              />
             </div>
             <div className="contactInfoLinks">
               <p>Linkedin</p>

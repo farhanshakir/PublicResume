@@ -1,3 +1,9 @@
+.certificateSectionContainer {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
 .certificateTagContainer {
   width: 100%;
   padding: 3%;
@@ -12,6 +18,9 @@
   display: flex;
   align-items: start;
   justify-content: center;
+}
+.certificateTagIconDiv img {
+  width: 100%;
 }
 .certificateTagTextContainer {
   width: 85%;
@@ -55,4 +64,36 @@
   text-align: left;
   color: #454238;
   margin: 0.5% 0;
+}
+@media only screen and (max-width: 1366px) {
+  .certificateTagTextDiv h3 {
+    font-size: 22px;
+  }
+  .certificateTagDateDiv p {
+    font-size: 16px;
+  }
+  .certificateTagDateDiv span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .certificateSectionContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .certificateTagIconDiv {
+    width: 12%;
+  }
+  .certificateTagTextContainer {
+    width: 83%;
+  }
+  .certificateTagTextDiv h3 {
+    font-size: 20px;
+  }
+  .certificateTagContainer {
+    margin: 4% 0;
+  }
 }

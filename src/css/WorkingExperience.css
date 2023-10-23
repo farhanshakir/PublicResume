@@ -41,13 +41,19 @@
   height: 100px;
   background-color: #2e2e48;
 }
+.workingExperienceSummaryContainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
 .workingExperienceSummaryDiv {
   width: 45%;
 }
 .workingExperienceDate {
-  width: 50%;
+  width: 100%;
   display: flex;
   gap: 6%;
+  white-space: nowrap;
 }
 .workingExperienceSummaryDiv p {
   font-family: DM Sans;
@@ -111,4 +117,76 @@
   line-height: 23px;
   letter-spacing: 0.01em;
   color: #ffffff;
+}
+@media only screen and (max-width: 1500px) {
+  .workingExperienceContentDiv {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .workingExperienceContentDiv {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .workingExperienceCompanyPosition h3 {
+    font-size: 18px;
+  }
+  .workingExperienceCompanyPosition p {
+    font-size: 22px;
+  }
+  .workingExperiencePointsDiv ul {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .workingExperienceSection {
+    margin: 3% 0;
+  }
+  .workingExperienceSummaryContainer {
+    width: 93%;
+    flex-direction: column;
+  }
+  .workingExperienceSummaryDiv {
+    width: 100%;
+  }
+  .workingExperiencePointsDiv {
+    width: 100%;
+    margin: 2% 0;
+  }
+  .workingExperiencePointsDiv ul {
+    line-height: 25px;
+  }
+  .workingExperienceSideLine {
+    height: 150px;
+  }
+  .workingExperienceContainer h2 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .workingExperienceSummaryContainer {
+    width: 90%;
+  }
+  .workingExperienceContainer h2 {
+    font-size: 38px;
+  }
+  .workingExperienceCompanyImage {
+    width: 60px;
+    height: 60px;
+  }
+  .workingExperienceSection {
+    margin: 5% 0;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .workingExperienceCompanyPosition p {
+    font-size: 20px;
+  }
+  .workingExperienceCompanyPosition h3 {
+    font-size: 16px;
+  }
+  .workingExperiencePointsDiv ul {
+    font-size: 14px;
+  }
 }
