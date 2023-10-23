@@ -1,0 +1,58 @@
+.certificateTagContainer {
+  width: 100%;
+  padding: 3%;
+  border-radius: 14px;
+  background-color: #f7f9fc;
+  display: flex;
+  gap: 3%;
+  margin: 2% 0;
+}
+.certificateTagIconDiv {
+  width: 10%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.certificateTagTextContainer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.certificateTagTextDiv {
+  width: 100%;
+}
+.certificateTagTextDiv h3 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #454238;
+}
+.certificateTagDateDiv {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.certificateTagDateDiv p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #454238;
+  margin: 0.5% 0;
+}
+.certificateTagDateDiv span {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #454238;
+  margin: 0.5% 0;
+}
