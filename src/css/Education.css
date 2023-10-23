@@ -1,0 +1,85 @@
+.educationSectionContainer {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.educationSectionContentDiv {
+  width: 55%;
+}
+.educationSectionContentDiv h2 {
+  font-family: Antonio;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #454238;
+  margin-bottom: 5%;
+}
+.EducationTagContainer {
+  width: 100%;
+  padding: 3%;
+  border-radius: 14px;
+  background-color: #f7f9fc;
+  display: flex;
+  gap: 3%;
+  margin: 2% 0;
+}
+.EducationTagIconDiv {
+  width: 10%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.EducationTagTextDiv {
+  width: 85%;
+}
+.EducationTagTextDiv h3 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #454238;
+}
+.EducationTagTextDiv h4 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 1% 0;
+  color: #454238;
+}
+.EducationTagDateDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.EducationTagDateDiv p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #454238;
+}
+.EducationTagLocationDiv {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.educationSectionImageDiv {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.educationSectionImageDiv img {
+  width: 90%;
+}

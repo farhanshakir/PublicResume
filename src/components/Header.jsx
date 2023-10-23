@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // Init
 import React from 'react';
-// import Farhan from '../assets/farhanHeader.png';
+import Farhan from '../assets/farhanHeader.png';
+import Path from '../assets/path.svg';
 
 // Component
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
     <div className="headerContainer">
       <div className="headerTextContainer">
         <h3>Sr. UI/UX Designer | Google UX Design Pro Certified</h3>
-        <h1>I’M Teera Baap.</h1>
+        <h1>I’M FARHAN S.</h1>
         <p>
           Hello! I'm an accomplished UI/UX Designer, dedicated to creating exceptional user
           experiences. With a programming background & 5 years of experience in the field, I bring a
@@ -31,7 +32,12 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <div className="headerImageDiv">{/* <img src={Farhan} alt="header" /> */}</div>
+      <div className="headerImageDiv">
+        <img src={Farhan} alt="header" />{' '}
+      </div>
+      <div className="headerPathDiv">
+        <img src={Path} alt="path" />
+      </div>
     </div>
   );
 }

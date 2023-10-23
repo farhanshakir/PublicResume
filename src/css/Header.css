@@ -81,7 +81,16 @@
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: column;
+  z-index: 2;
 }
 .headerImageDiv img {
   width: 90%;
+}
+.headerPathDiv {
+  position: absolute;
+  bottom: 2%;
+  left: 22%;
+}
+.headerPathDiv img {
+  width: 100%;
 }
