@@ -17,6 +17,7 @@ export default function Education() {
           organization="GIFT University"
           date="Oct 2017 - Oct 2021"
           area="GUJRANWALA"
+          link="https://gift.edu.pk/"
         />
         <EducationTag
           Icon={Govt}
@@ -24,6 +25,7 @@ export default function Education() {
           organization="Govt. Post Graduate College"
           date="Sep 2015 - Apr 2017"
           area="OKARA"
+          link="https://www.gpgcokara.edu.pk/"
         />
       </div>
       <div className="educationSectionImageDiv">

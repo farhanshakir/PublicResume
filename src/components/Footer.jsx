@@ -21,7 +21,9 @@ export default function Footer() {
             Just remember to credit <span> Farhan Shakir</span> when you use it. Lets share the
             creative love!
           </p>
-          <a href="asd">GitHub Repository Link</a>
+          <a href="https://github.com/farhanshakir/PublicResume" target="_blank" rel="noreferrer">
+            GitHub Repository Link
+          </a>
         </div>
       </div>
     </div>

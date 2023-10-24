@@ -4,16 +4,19 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 
 // Component
 export default function EducationTag(props) {
-  const { Icon, degree, organization, date, area } = props;
+  const { Icon, degree, organization, date, area, link } = props;
 
   return (
     <div className="EducationTagContainer">
-      <div className="EducationTagIconDiv">
+      <a href={link} target="_blank" rel="noreferrer" className="EducationTagIconDiv">
         <img src={Icon} alt="GiftUni" />
-      </div>
+      </a>
       <div className="EducationTagTextDiv">
         <h3>{degree}</h3>
-        <h4>{organization}</h4>
+        {/* <h4>{organization}</h4> */}
+        <a href={link} target="_blank" rel="noreferrer">
+          {organization}
+        </a>
         <div className="EducationTagDateDiv">
           <p> {date}</p>
           <div className="EducationTagLocationDiv">

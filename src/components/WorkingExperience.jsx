@@ -33,7 +33,9 @@ export default function WorkingExperience() {
                 </div>
                 <div className="workingExperienceCompanyPosition">
                   <h3>UI/UX Team Lead</h3>
-                  <p>Falcon Consulting</p>
+                  <a href="https://falconconsulting.fr/" target="_blank" rel="noreferrer">
+                    Falcon Consulting
+                  </a>
                 </div>
               </div>
             </div>
@@ -74,7 +76,9 @@ export default function WorkingExperience() {
                 </div>
                 <div className="workingExperienceCompanyPosition">
                   <h3>Sr. UI/UX Designer</h3>
-                  <p>Falcon Consulting</p>
+                  <a href="https://falconconsulting.fr/" target="_blank" rel="noreferrer">
+                    Falcon Consulting
+                  </a>
                 </div>
               </div>
             </div>
@@ -113,7 +117,9 @@ export default function WorkingExperience() {
                 </div>
                 <div className="workingExperienceCompanyPosition">
                   <h3>React Native Developer</h3>
-                  <p>Falcon Consulting</p>
+                  <a href="https://falconconsulting.fr/" target="_blank" rel="noreferrer">
+                    Falcon Consulting
+                  </a>
                 </div>
               </div>
             </div>
@@ -150,7 +156,9 @@ export default function WorkingExperience() {
                 </div>
                 <div className="workingExperienceCompanyPosition">
                   <h3>Freelancer</h3>
-                  <p>Upwork</p>
+                  <a href="https://www.upwork.com/" target="_blank" rel="noreferrer">
+                    Upwork
+                  </a>
                 </div>
               </div>
             </div>
@@ -192,7 +200,13 @@ export default function WorkingExperience() {
                 </div>
                 <div className="workingExperienceCompanyPosition">
                   <h3>Founder</h3>
-                  <p>The Photer</p>
+                  <a
+                    href="https://www.linkedin.com/company/26191687/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIRVVmtxVS5mecXYuEdgzFg%3D%3D"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    The Photer
+                  </a>
                 </div>
               </div>
             </div>

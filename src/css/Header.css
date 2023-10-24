@@ -64,6 +64,17 @@
   margin: 1% 0;
   padding: 1% 0;
 }
+.headerBtncontainerMob a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  white-space: nowrap;
+  margin: 1% 0;
+  padding: 1% 0;
+  cursor: pointer;
+}
 .headerBtncontainer {
   display: flex;
   align-items: center;
@@ -77,6 +88,16 @@
   justify-content: center;
   gap: 5%;
   white-space: nowrap;
+}
+.headerBtncontainer a {
+  padding: 1% 4%;
+  margin: 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  white-space: nowrap;
+  cursor: pointer;
 }
 .headerLocationBtn {
   font-family: DM Sans;

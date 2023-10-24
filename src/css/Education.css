@@ -31,6 +31,7 @@
   display: flex;
   align-items: start;
   justify-content: center;
+  cursor: pointer;
 }
 .EducationTagIconDiv img {
   width: 100%;
@@ -47,7 +48,7 @@
   text-align: left;
   color: #454238;
 }
-.EducationTagTextDiv h4 {
+.EducationTagTextDiv a {
   font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
@@ -56,6 +57,7 @@
   text-align: left;
   margin: 1% 0;
   color: #454238;
+  text-decoration: none;
 }
 .EducationTagDateDiv {
   width: 100%;
@@ -93,7 +95,7 @@
   .EducationTagTextDiv h3 {
     font-size: 22px;
   }
-  .EducationTagTextDiv h4 {
+  .EducationTagTextDiv a {
     font-size: 18px;
   }
   .EducationTagDateDiv p {
@@ -140,7 +142,7 @@
   .EducationTagTextDiv h3 {
     font-size: 20px;
   }
-  .EducationTagTextDiv h4 {
+  .EducationTagTextDiv a {
     font-size: 16px;
   }
   .EducationTagContainer {

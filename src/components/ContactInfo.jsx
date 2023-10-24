@@ -29,7 +29,7 @@ export default function ContactInfo() {
             </div>
             <div className="contactInfoLinks">
               <p>For Call</p>
-              <a href="/">+92 315 0403254</a>
+              <a href="tel:+92 315 0403254">+92 315 0403254</a>
             </div>
           </div>
           <div className="contactInfoLinksDiv">
@@ -41,7 +41,7 @@ export default function ContactInfo() {
             </div>
             <div className="contactInfoLinks">
               <p>Email</p>
-              <a href="/">farhan11.fk22@gmail.com</a>
+              <a href="mailto:farhan11.fk22@gmail.com">farhan11.fk22@gmail.com</a>
             </div>
           </div>
           <div className="contactInfoLinksDiv">
@@ -53,7 +53,13 @@ export default function ContactInfo() {
             </div>
             <div className="contactInfoLinks">
               <p>Linkedin</p>
-              <a href="/">www.linkedin.com/in/farhansofficial/</a>
+              <a
+                href="https://www.linkedin.com/in/farhansofficial/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                www.linkedin.com/in/farhansofficial/
+              </a>
             </div>
           </div>
           <div className="contactInfoLinksDiv">
@@ -62,7 +68,9 @@ export default function ContactInfo() {
             </div>
             <div className="contactInfoLinks">
               <p>Behance</p>
-              <a href="/">www.behance.net/farhansofficial</a>
+              <a href="https:/www.behance.net/farhansofficial" target="_blank" rel="noreferrer">
+                www.behance.net/farhansofficial
+              </a>
             </div>
           </div>
         </div>

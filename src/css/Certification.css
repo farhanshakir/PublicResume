@@ -31,7 +31,7 @@
 .certificateTagTextDiv {
   width: 100%;
 }
-.certificateTagTextDiv h3 {
+.certificateTagTextDiv a {
   font-family: DM Sans;
   font-size: 24px;
   font-weight: 500;
@@ -39,6 +39,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #454238;
+  text-decoration: none;
 }
 .certificateTagDateDiv {
   display: flex;
@@ -66,7 +67,7 @@
   margin: 0.5% 0;
 }
 @media only screen and (max-width: 1366px) {
-  .certificateTagTextDiv h3 {
+  .certificateTagTextDiv a {
     font-size: 22px;
   }
   .certificateTagDateDiv p {
@@ -90,7 +91,7 @@
   .certificateTagTextContainer {
     width: 83%;
   }
-  .certificateTagTextDiv h3 {
+  .certificateTagTextDiv a {
     font-size: 20px;
   }
   .certificateTagContainer {
