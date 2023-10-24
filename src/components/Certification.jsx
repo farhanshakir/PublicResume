@@ -11,7 +11,7 @@ import CertificateTag from './common/CertificateTag';
 // Component
 export default function Certification() {
   return (
-    <div className="educationSectionContainer">
+    <div className="certificateSectionContainer">
       <div className="educationSectionImageDiv">
         <img src={Globe} alt="Globe" />
       </div>

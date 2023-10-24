@@ -52,6 +52,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 0.5%;
 }
 .footerGitTextDiv p span {
   font-weight: 700;
@@ -65,4 +66,72 @@
   text-align: left;
   color: #003b7e;
   text-decoration: none;
+}
+@media only screen and (max-width: 1366px) {
+  .footerGitTextDiv p {
+    font-size: 18px;
+  }
+  .footerGitTextDiv a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footerGitIcon {
+    width: 9%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .footerGitIcon {
+    width: 10%;
+  }
+  .footerGitTextDiv p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .footerGitTextDiv a {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .footerContainer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footerCopyright {
+    width: 100%;
+  }
+  .footerGithubDiv {
+    width: 100%;
+    margin-top: 1%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footerGithubDiv {
+    margin-top: 2%;
+    align-items: start;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .footerCopyright h3 {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .footerCopyright p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .footerGitIcon {
+    width: 12%;
+  }
+  .footerGitTextDiv {
+    width: 88%;
+  }
+  .footerGitTextDiv p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .footerGitTextDiv a {
+    font-size: 14px;
+    line-height: normal;
+  }
 }

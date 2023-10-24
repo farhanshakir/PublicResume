@@ -64,3 +64,97 @@
   text-decoration: underline;
   white-space: nowrap;
 }
+@media only screen and (max-width: 1500px) {
+  .contactInfoContentDiv h3 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .contactInfoContentDiv h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .contactInfoIcons {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contactInfoContentDiv {
+    width: 50%;
+  }
+  .contactInfoContentDiv h3 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contactInfoContentDiv h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .contactInfoLinks a {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .contactInfoContainer {
+    flex-direction: column;
+    padding: 5%;
+  }
+  .contactInfoImageDiv {
+    width: 100%;
+    justify-content: center;
+  }
+  .contactInfoImageDiv img {
+    width: 50%;
+  }
+  .contactInfoContentDiv {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .contactInfoContentDiv h3 {
+    width: 100%;
+    font-size: 32px;
+    line-height: normal;
+  }
+  .contactInfoLinksDiv {
+    margin: 3% 0;
+  }
+  .contactInfoIcons {
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contactInfoImageDiv img {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contactInfoImageDiv img {
+    width: 80%;
+  }
+  .contactInfoIcons {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .contactInfoImageDiv img {
+    width: 90%;
+  }
+  .contactInfoLinksDiv {
+    margin: 7% 0;
+  }
+  .contactInfoContentDiv h3 {
+    margin-top: 3%;
+  }
+  .contactInfoContentDiv h3 {
+    font-size: 28px;
+  }
+}

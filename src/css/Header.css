@@ -1,12 +1,11 @@
 /* Header Component Style */
 .headerContainer {
-  height: 90vh;
   width: 100%;
   background: linear-gradient(90deg, #3378ff 0%, #9442fe 100%);
   position: relative;
   display: flex;
   align-items: center;
-  padding: 5%;
+  padding: 10% 5%;
 }
 .headerTextContainer {
   width: 55%;
@@ -19,6 +18,17 @@
   letter-spacing: 0px;
   text-align: left;
   color: #ffffff;
+}
+.headerTextContainer h4 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  color: #ffffff;
+  display: none;
 }
 .headerTextContainer h1 {
   font-family: 'Antonio', sans-serif;
@@ -39,6 +49,21 @@
   text-align: left;
   color: #ffffff;
 }
+.headerBtncontainerMob {
+  display: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.headerBtncontainerMob button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  white-space: nowrap;
+  margin: 1% 0;
+  padding: 1% 0;
+}
 .headerBtncontainer {
   display: flex;
   align-items: center;
@@ -47,6 +72,11 @@
 .headerBtncontainer button {
   padding: 1% 4%;
   margin: 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  white-space: nowrap;
 }
 .headerLocationBtn {
   font-family: DM Sans;
@@ -70,6 +100,7 @@
   border-radius: 50px;
   border: 1px solid #ffffff;
   background-color: transparent;
+  text-decoration: underline;
 }
 .headerImageDiv {
   width: 70%;
@@ -84,13 +115,152 @@
   z-index: 2;
 }
 .headerImageDiv img {
-  width: 90%;
+  width: 80%;
 }
 .headerPathDiv {
   position: absolute;
   bottom: 2%;
-  left: 22%;
+  left: 29%;
 }
 .headerPathDiv img {
   width: 100%;
+}
+.headerImageDivMob {
+  display: none;
+}
+.headerImageDivMob img {
+  width: 100%;
+}
+@media only screen and (max-width: 1500px) {
+  .headerTextContainer h3 {
+    font-size: 22px;
+  }
+  .headerTextContainer h1 {
+    font-size: 50px;
+  }
+  .headerTextContainer p {
+    font-size: 22px;
+  }
+  .headerPathDiv {
+    position: absolute;
+    bottom: 2%;
+    left: 33%;
+  }
+  .headerPathDiv img {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .headerImageDiv img {
+    width: 85%;
+  }
+  .headerPathDiv {
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .headerContainer {
+    justify-content: space-between;
+  }
+  .headerTextContainer {
+    width: 60%;
+  }
+  .headerImageDiv {
+    display: none;
+  }
+  .headerPathDiv {
+    display: none;
+  }
+  .headerImageDivMob {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerTextContainer h3 {
+    font-size: 20px;
+  }
+  .headerTextContainer h1 {
+    font-size: 46px;
+  }
+  .headerTextContainer p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .headerTextContainer h3 {
+    font-size: 18px;
+  }
+  .headerTextContainer h1 {
+    font-size: 42px;
+  }
+  .headerTextContainer p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .headerContainer {
+    flex-direction: column-reverse;
+  }
+  .headerTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: -5%;
+  }
+  .headerTextContainer h1 {
+    font-size: 48px;
+  }
+  .headerTextContainer h3 {
+    display: none;
+  }
+  .headerBtncontainer {
+    display: none;
+  }
+  .headerTextContainer h4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2% 0;
+  }
+  .headerTextContainer p {
+    text-align: justify;
+    line-height: normal;
+    margin-top: 3%;
+  }
+  .headerBtncontainerMob {
+    display: flex;
+  }
+  .headerImageDivMob {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headerTextContainer {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .headerTextContainer {
+    width: 90%;
+  }
+  .headerImageDivMob {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .headerTextContainer {
+    width: 100%;
+  }
+  .headerImageDivMob {
+    width: 90%;
+  }
 }
