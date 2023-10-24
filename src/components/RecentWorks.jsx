@@ -39,7 +39,7 @@ export default function RecentWorks() {
         Logo={SalesProLogo}
         desp="Elevating E-Commerce Excellence: As part of the SalesPro Direct team, I contributed to creating a seamless and engaging online shopping destination. Our focus on user-friendly interfaces and captivating design resulted in an enhanced retail experience that boosts customer engagement and conversions."
         linkText="www.salesprodirect.com"
-        link="https://salesprodirect.com/"
+        link="https://www.figma.com/file/FkS1gQ7ZtdjiH1W8qTVcLC/Salespro-Direct?type=design&t=OGzZFnCln62lG2eg-6"
         tag1="Retail Branding"
         tag2="E-Commerce"
         tag3="Business/Productivity"

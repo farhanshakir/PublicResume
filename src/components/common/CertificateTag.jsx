@@ -14,6 +14,9 @@ export default function CertificateTag(props) {
     year1,
     year2,
     year3,
+    link1,
+    link2,
+    link3,
   } = props;
 
   return (
@@ -24,7 +27,9 @@ export default function CertificateTag(props) {
       <div className="certificateTagTextContainer">
         {title1 && (
           <div className="certificateTagTextDiv">
-            <h3>{title1}</h3>
+            <a href={link1} target="_blank" rel="noreferrer">
+              {title1}
+            </a>
             <div className="certificateTagDateDiv">
               <p>{organization1}</p>
               <span>{year1}</span>
@@ -33,7 +38,9 @@ export default function CertificateTag(props) {
         )}
         {title2 && (
           <div className="certificateTagTextDiv">
-            <h3>{title2}</h3>
+            <a href={link2} target="_blank" rel="noreferrer">
+              {title2}
+            </a>
             <div className="certificateTagDateDiv">
               <p>{organization2}</p>
               <span>{year2}</span>
@@ -42,7 +49,9 @@ export default function CertificateTag(props) {
         )}
         {title3 && (
           <div className="certificateTagTextDiv">
-            <h3>{title3}</h3>
+            <a href={link3} target="_blank" rel="noreferrer">
+              {title3}
+            </a>
             <div className="certificateTagDateDiv">
               <p>{organization3}</p>
               <span>{year3}</span>

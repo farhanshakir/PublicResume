@@ -21,9 +21,9 @@ export default function Header() {
           <button type="button" className="headerLocationBtn">
             <PlaceIcon sx={{ color: '#0E88FA' }} /> Lahore, Pakistan
           </button>
-          <button type="button" className="headerEmailBtn">
+          <a href="mailto:farhan11.fk22@gmail.com" className="headerEmailBtn">
             <EmailIcon /> farhan11.fk22@gmail.com
-          </button>
+          </a>
         </div>
         <p>
           Hello! I'm an accomplished UI/UX Designer, dedicated to creating exceptional user
@@ -41,9 +41,9 @@ export default function Header() {
           <button type="button" className="headerLocationBtn">
             <PlaceIcon sx={{ color: '#0E88FA' }} /> Lahore, Pakistan
           </button>
-          <button type="button" className="headerEmailBtn">
+          <a href="mailto:farhan11.fk22@gmail.com" className="headerEmailBtn">
             <EmailIcon /> farhan11.fk22@gmail.com
-          </button>
+          </a>
         </div>
       </div>
       <div className="headerImageDiv">
