@@ -15,7 +15,7 @@
 }
 .projectCardContainer h2 {
   color: #ffffff;
-  font-family: 'Antonio-Regular', Helvetica;
+  font-family: 'Antonio';
   font-size: 48px;
   font-weight: 400;
   letter-spacing: 0;
@@ -50,7 +50,7 @@
   margin: 5% 0;
 }
 .projectCardDesp p {
-  font-family: 'DM Sans-Regular', Helvetica;
+  font-family: 'DM Sans',;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0;
@@ -59,12 +59,12 @@
 }
 .projectCardDesp p span {
   color: #ffffff;
-  font-family: 'DM Sans-Bold', Helvetica;
+  font-family: 'DM Sans';
   font-weight: 700;
 }
 .projectCardDesp p a {
   color: #ffffff;
-  font-family: 'DM Sans-Bold', Helvetica;
+  font-family: 'DM Sans';
   font-weight: 700;
   text-decoration: underline;
 }
