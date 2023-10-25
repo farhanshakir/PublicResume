@@ -68,7 +68,7 @@ export default function ContactInfo() {
             </div>
             <div className="contactInfoLinks">
               <p>Behance</p>
-              <a href="https:/www.behance.net/farhansofficial" target="_blank" rel="noreferrer">
+              <a href="https://www.behance.net/farhansofficial" target="_blank" rel="noreferrer">
                 www.behance.net/farhansofficial
               </a>
             </div>
