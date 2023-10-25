@@ -16,7 +16,7 @@ function App() {
         <title>Farhan Shakir - Sr. UX/UI Designer Resume | SaaS Expertise</title>
         <meta
           name="description"
-          content="Explore the resume of Farhan Shakir, a seasoned Senior UX/UI designer renowned for crafting innovative and user-friendly digital experiences across diverse sectors including health, e-commerce, and transportation. With a special focus on SaaS projects, discover seamless interfaces blending creativity and functionality, designed to elevate user experiences"
+          content="Explore the resume of Farhan Shakir, a seasoned Senior UX/UI designer renowned for crafting innovative and user-friendly digital experiences across diverse sectors including health, e-commerce, and transportation. With a special focus on SaaS projects, discover seamless interfaces blending creativity and functionality, designed to elevate user experiences."
         />
         <meta
           name="keywords"
