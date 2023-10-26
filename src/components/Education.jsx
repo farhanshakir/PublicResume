@@ -1,6 +1,6 @@
 // Init
 import React from 'react';
-import EducationImage from '../assets/education.svg';
+import EducationImage from '../assets/education.png';
 import GiftUni from '../assets/giftUniversity.svg';
 import Govt from '../assets/govtCollege.svg';
 import EducationTag from './common/EducationTag';
