@@ -12,7 +12,6 @@ import './css/index.css';
 function App() {
   return (
     <div className="App">
-      
       <Helmet>
         <title>Farhan Shakir - Sr. UI/UX Designer Resume | SaaS Expertise</title>
         <meta
@@ -24,13 +23,10 @@ function App() {
           content="UX/UI Designer, User Experience, User Interface, Design Portfolio, Figma Expert, SaaS Expertise, Senior Designer, Innovative UX/UI, Health Design, E-commerce, Transportation, Creative Design Solutions, Farhan Shakir"
         />
       </Helmet>
-      
       {/* toastify Container for Notification */}
       <ToastContainer position="bottom-right" autoClose={3000} hideProgressBar transition={Flip} />
-      
       {/* Routes */}
       <Index />
-      
     </div>
   );
 }
