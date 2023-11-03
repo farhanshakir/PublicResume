@@ -68,7 +68,6 @@
   display: flex;
   gap: 10px;
   margin-top: 2%;
-  /* align-items: center; */
 }
 .contactInfoLinkIconNew {
   width: 50px;
@@ -96,6 +95,7 @@
   font-family: DM Sans;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 @media only screen and (max-width: 1500px) {
   .contactInfoContentDiv h3 {
@@ -147,10 +147,15 @@
   .contactInfoContentDiv {
     width: 100%;
     margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .contactInfoContentDiv h3 {
     width: 100%;
     font-size: 32px;
+    text-align: center;
     line-height: normal;
   }
   .contactInfoLinksDiv {
@@ -160,6 +165,10 @@
     border-radius: 30px;
     height: 60px;
     width: 60px;
+  }
+  .contactInfoLinksNewContainer {
+    width: 100%;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -176,6 +185,17 @@
     height: 50px;
     width: 50px;
   }
+  .contactInfoLinkIconNew {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .contactInfoLinksNewContainer {
+    margin-top: 3%;
+  }
+  .contactInfoLinksNewContainer button {
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width: 520px) {
   .contactInfoImageDiv img {
@@ -189,5 +209,8 @@
   }
   .contactInfoContentDiv h3 {
     font-size: 28px;
+  }
+  .contactInfoLinksNewContainer {
+    transform: scale(0.9);
   }
 }

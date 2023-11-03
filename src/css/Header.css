@@ -139,6 +139,12 @@
 .headerTagsImageDiv {
   position: absolute;
   right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headerTagsImageDiv img {
+  width: 100%;
 }
 .headerImageDiv img {
   width: 80%;
@@ -174,6 +180,9 @@
   }
   .headerPathDiv img {
     width: 70%;
+  }
+  .headerTagsImageDiv img {
+    width: 90%;
   }
 }
 @media only screen and (max-width: 1366px) {
