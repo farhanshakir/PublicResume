@@ -6,7 +6,7 @@ import LinkedIn from '../../assets/linkedinIcon.svg';
 import Behance from '../../assets/behanceIcon.svg';
 import Email from '../../assets/emailIcon.svg';
 // import Path from '../../assets/resume/demoPdf.pdf';
-import Path from '../assets/resume/FarhanResume.pdf';
+import Path from '../../assets/resume/FarhanResume.pdf';
 
 // Component
 
