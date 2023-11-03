@@ -26,7 +26,7 @@ export default function Home() {
       <Certification />
       <ExperienceTools />
       <ContactInfo />
-{/*       <Footer /> */}
+      <Footer />
     </div>
   );
 }
