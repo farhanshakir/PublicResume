@@ -5,7 +5,8 @@ import Logo from '../../assets/logo.svg';
 import LinkedIn from '../../assets/linkedinIcon.svg';
 import Behance from '../../assets/behanceIcon.svg';
 import Email from '../../assets/emailIcon.svg';
-import Path from '../../assets/resume/demoPdf.pdf';
+// import Path from '../../assets/resume/demoPdf.pdf';
+import Path from '../assets/resume/FarhanResume.pdf';
 
 // Component
 
@@ -17,7 +18,7 @@ export default function FloatingNav() {
     const pdfFile = Path;
     const link = document.createElement('a');
     link.href = pdfFile;
-    link.download = 'FarhanShakirResume.pdf'; // The name for the downloaded file
+    link.download = 'FarhanShakirUIUXResume.pdf'; // The name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
