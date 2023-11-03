@@ -5,11 +5,23 @@ import Logo from '../../assets/logo.svg';
 import LinkedIn from '../../assets/linkedinIcon.svg';
 import Behance from '../../assets/behanceIcon.svg';
 import Email from '../../assets/emailIcon.svg';
+import Path from '../../assets/resume/demoPdf.pdf';
+
 // Component
 
 export default function FloatingNav() {
   const [isFloatingVisible, setIsFloatingVisible] = useState(false);
 
+  const downloadPdf = () => {
+    // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
+    const pdfFile = Path;
+    const link = document.createElement('a');
+    link.href = pdfFile;
+    link.download = 'FarhanShakirResume.pdf'; // The name for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const handleScroll = () => {
     if (window.scrollY >= 100) {
       setIsFloatingVisible(true);
@@ -28,20 +40,30 @@ export default function FloatingNav() {
   return (
     <div className={`floatingNavContainer ${isFloatingVisible ? 'floatingNavVisible' : ''}`}>
       <div className="floatingNavDiv">
-        <div>
+        <div className="floatingNavLogoDiv">
           <img src={Logo} alt="logo" />
         </div>
         <div className="floatingNavRightDiv">
-          <div className="floatingNavIconDiv">
+          <a href="mailto:farhan11.fk22@gmail.com" className="floatingNavIconDiv">
             <img src={Email} alt="Email" />
-          </div>
-          <div className="floatingNavIconDiv">
+          </a>
+          <a
+            href="https://www.behance.net/farhansofficial"
+            target="_blank"
+            rel="noreferrer"
+            className="floatingNavIconDiv"
+          >
             <img src={Behance} alt="Behance" />
-          </div>
-          <div className="floatingNavIconDiv">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/farhansofficial/"
+            target="_blank"
+            rel="noreferrer"
+            className="floatingNavIconDiv"
+          >
             <img src={LinkedIn} alt="LinkedIn" />
-          </div>
-          <button type="button">
+          </a>
+          <button type="button" onClick={downloadPdf}>
             Download Resume
             <DownloadIcon />
           </button>
