@@ -8,7 +8,8 @@ import Call from '../assets/callblue.svg';
 import LinkedIn from '../assets/linkedinBlue.svg';
 import Behance from '../assets/behanceblue.svg';
 import Email from '../assets/emailblue.svg';
-import Path from '../assets/resume/demoPdf.pdf';
+// import Path from '../assets/resume/demoPdf.pdf';
+import Path from '../assets/resume/FarhanResume.pdf';
 
 // Component
 export default function ContactInfo() {
@@ -17,7 +18,7 @@ export default function ContactInfo() {
     const pdfFile = Path;
     const link = document.createElement('a');
     link.href = pdfFile;
-    link.download = 'FarhanShakirResume.pdf'; // The name for the downloaded file
+    link.download = 'FarhanShakirUIUXResume.pdf'; // The name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
