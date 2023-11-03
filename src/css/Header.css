@@ -134,6 +134,11 @@
   justify-content: flex-end;
   flex-direction: column;
   z-index: 2;
+  /* transform: scale(0.9); */
+}
+.headerTagsImageDiv {
+  position: absolute;
+  right: 0;
 }
 .headerImageDiv img {
   width: 80%;
@@ -189,6 +194,9 @@
     width: 60%;
   }
   .headerImageDiv {
+    display: none;
+  }
+  .headerTagsImageDiv {
     display: none;
   }
   .headerPathDiv {

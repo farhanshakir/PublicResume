@@ -4,6 +4,7 @@ import React from 'react';
 import PlaceIcon from '@mui/icons-material/Place';
 import EmailIcon from '@mui/icons-material/Email';
 import Farhan from '../assets/farhanHeader.png';
+import Categories from '../assets/categories.png';
 import FarhanMob from '../assets/farhan.png';
 import Path from '../assets/path.svg';
 
@@ -48,6 +49,9 @@ export default function Header() {
       </div>
       <div className="headerImageDiv">
         <img src={Farhan} alt="header" />{' '}
+      </div>
+      <div className="headerTagsImageDiv">
+        <img src={Categories} alt="header" />{' '}
       </div>
       <div className="headerImageDivMob">
         <img src={FarhanMob} alt="header" />{' '}
