@@ -11,11 +11,13 @@ import Certification from '../components/Certification';
 import ExperienceTools from '../components/ExperienceTools';
 import ContactInfo from '../components/ContactInfo';
 import Footer from '../components/Footer';
+import FloatingNav from '../components/common/FloatingNav';
 
 // Home Component
 export default function Home() {
   return (
     <div>
+      <FloatingNav />
       <Header />
       <WorkingExperience />
       <DigitalExperience />

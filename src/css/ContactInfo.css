@@ -64,6 +64,39 @@
   text-decoration: underline;
   white-space: nowrap;
 }
+.contactInfoLinksNewContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 2%;
+  /* align-items: center; */
+}
+.contactInfoLinkIconNew {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.contactInfoLinkIconNew img {
+  width: 45%;
+}
+.contactInfoLinksNewContainer button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  white-space: nowrap;
+  background-color: #ffffff;
+  color: #3378ff;
+  padding: 0 3%;
+  border-radius: 50px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+}
 @media only screen and (max-width: 1500px) {
   .contactInfoContentDiv h3 {
     font-size: 36px;
