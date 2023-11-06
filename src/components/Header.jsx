@@ -4,7 +4,7 @@ import React from 'react';
 import PlaceIcon from '@mui/icons-material/Place';
 import EmailIcon from '@mui/icons-material/Email';
 import Farhan from '../assets/farhanHeader.png';
-import Categories from '../assets/categories.png';
+import Categories from '../assets/categories.svg';
 import FarhanMob from '../assets/farhan.png';
 import Path from '../assets/path.svg';
 

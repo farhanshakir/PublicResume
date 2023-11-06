@@ -18,7 +18,7 @@ export default function FloatingNav() {
     const pdfFile = Path;
     const link = document.createElement('a');
     link.href = pdfFile;
-    link.download = 'FarhanShakirUIUXResume.pdf'; // The name for the downloaded file
+    link.download = 'Farhan Shakir - UI UX Resume.pdf'; // The name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -64,10 +64,19 @@ export default function FloatingNav() {
           >
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          <button type="button" onClick={downloadPdf}>
+          {/* <a rel="noreferrer" target="_blank" href={Path}> */}
+          <a
+            // type="button"
+            className="downloadResume"
+            rel="noreferrer"
+            target="_blank"
+            href={Path}
+            onClick={downloadPdf}
+          >
             Download Resume
             <DownloadIcon />
-          </button>
+          </a>
+          {/* </a> */}
         </div>
       </div>
     </div>
