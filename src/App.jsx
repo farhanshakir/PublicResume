@@ -13,14 +13,14 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>Farhan Shakir - Sr. UI/UX Designer Resume | SaaS Expertise</title>
+        <title>Farhan Shakir - Product Designer Resume | SaaS Expertise</title>
         <meta
           name="description"
-          content="Sr. UI/UX Designer ready for your next project. Hire me for innovative designs in diverse sectors including health, e-commerce, transportation, SaaS, etc."
+          content="Product Designer ready for your next project. Hire me for innovative designs in diverse sectors including healthcare, real estate, e-commerce, transportation, SaaS, etc."
         />
         <meta
           name="keywords"
-          content="UX/UI Designer, User Experience, User Interface, Design Portfolio, Figma Expert, SaaS Expertise, Senior Designer, Innovative UX/UI, Health Design, E-commerce, Transportation, Creative Design Solutions, Farhan Shakir"
+          content="Product Designer, UX/UI Designer, User Experience, User Interface, Design Portfolio, Figma Expert, SaaS Expertise, Senior Designer, Innovative UX/UI, Health Design, E-commerce, Transportation, Creative Design Solutions, Farhan Shakir"
         />
       </Helmet>
       {/* toastify Container for Notification */}
