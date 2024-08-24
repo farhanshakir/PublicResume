@@ -88,7 +88,7 @@ export default function WorkingExperience() {
       points: [
         'Entrepreneurial founder of The Photer, a service-based company providing exceptional event photographers.',
       ],
-    }, 
+    },
     {
       date: 'Sep 2018 - Oct 2021',
       location: 'Pakistan',
