@@ -79,6 +79,17 @@ export default function WorkingExperience() {
       ],
     },
     {
+      date: 'Mar 2019 - Present',
+      location: 'Pakistan',
+      company: 'The Photer',
+      position: 'Founder',
+      image: Photer,
+      link: 'https://www.linkedin.com/company/26191687/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIRVVmtxVS5mecXYuEdgzFg%3D%3D',
+      points: [
+        'Entrepreneurial founder of The Photer, a service-based company providing exceptional event photographers.',
+      ],
+    }, 
+    {
       date: 'Sep 2018 - Oct 2021',
       location: 'Pakistan',
       company: 'Upwork',
@@ -91,17 +102,6 @@ export default function WorkingExperience() {
         'Leveraged effective communication and problem-solving skills to address client feedback and ensure project success.',
       ],
     },
-    {
-      date: 'Mar 2019 - Present',
-      location: 'Pakistan',
-      company: 'The Photer',
-      position: 'Founder',
-      image: Photer,
-      link: 'https://www.linkedin.com/company/26191687/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIRVVmtxVS5mecXYuEdgzFg%3D%3D',
-      points: [
-        'Entrepreneurial founder of The Photer, a service-based company providing exceptional event photographers.',
-      ],
-    }, 
   ];
 
   return (
