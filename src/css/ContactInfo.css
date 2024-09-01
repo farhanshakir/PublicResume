@@ -7,18 +7,32 @@
   justify-content: center;
   gap: 5%;
 }
+
 .contactInfoImageDiv {
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
+
 .contactInfoImageDiv img {
   width: 70%;
 }
+
 .contactInfoContentDiv {
   width: 40%;
 }
+
+.contactInfoContentLogoDiv {
+  width: 96px;
+  height: 96px;
+}
+
+.contactInfoContentLogoDiv img {
+  width: 100%;
+  height: 100%;
+}
+
 .contactInfoContentDiv h3 {
   color: #ffffff;
   font-family: 'Nunito Sans';
@@ -26,13 +40,16 @@
   font-weight: 700;
   letter-spacing: 0;
   line-height: 52px;
+  margin: 20px 0;
 }
+
 .contactInfoLinksDiv {
   display: flex;
   align-items: center;
   gap: 3%;
   margin: 5% 0;
 }
+
 .contactInfoIcons {
   background-color: #ffffff;
   border-radius: 30px;
@@ -42,9 +59,11 @@
   align-items: center;
   justify-content: center;
 }
+
 .contactInfoIcons img {
   width: 100%;
 }
+
 .contactInfoLinks p {
   color: #ffffff;
   font-family: 'DM Sans';
@@ -54,6 +73,7 @@
   line-height: 23.8px;
   white-space: nowrap;
 }
+
 .contactInfoLinks a {
   color: #ffffff;
   font-family: 'DM Sans';
@@ -64,11 +84,13 @@
   text-decoration: underline;
   white-space: nowrap;
 }
+
 .contactInfoLinksNewContainer {
   display: flex;
   gap: 10px;
   margin-top: 2%;
 }
+
 .contactInfoLinkIconNew {
   width: 50px;
   height: 50px;
@@ -78,9 +100,11 @@
   justify-content: center;
   background-color: #ffffff;
 }
+
 .contactInfoLinkIconNew img {
   width: 45%;
 }
+
 .contactInfoLinksNewContainer button {
   border: none;
   display: flex;
@@ -97,53 +121,64 @@
   font-weight: 500;
   cursor: pointer;
 }
+
 @media only screen and (max-width: 1500px) {
   .contactInfoContentDiv h3 {
     font-size: 36px;
     line-height: 45px;
   }
 }
+
 @media only screen and (max-width: 1366px) {
   .contactInfoContentDiv h3 {
     font-size: 32px;
     line-height: 40px;
   }
+
   .contactInfoIcons {
     border-radius: 25px;
     height: 50px;
     width: 50px;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .contactInfoContentDiv {
     width: 50%;
   }
+
   .contactInfoContentDiv h3 {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .contactInfoContentDiv h3 {
     font-size: 28px;
     line-height: 36px;
   }
+
   .contactInfoLinks a {
     font-size: 18px;
     line-height: 23px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .contactInfoContainer {
     flex-direction: column;
     padding: 5%;
   }
+
   .contactInfoImageDiv {
     width: 100%;
     justify-content: center;
   }
+
   .contactInfoImageDiv img {
     width: 50%;
   }
+
   .contactInfoContentDiv {
     width: 100%;
     margin-top: 5%;
@@ -152,65 +187,99 @@
     align-items: center;
     justify-content: center;
   }
+
   .contactInfoContentDiv h3 {
     width: 100%;
     font-size: 32px;
     text-align: center;
     line-height: normal;
   }
+
   .contactInfoLinksDiv {
     margin: 3% 0;
   }
+
   .contactInfoIcons {
     border-radius: 30px;
     height: 60px;
     width: 60px;
   }
+
   .contactInfoLinksNewContainer {
     width: 100%;
     justify-content: center;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .contactInfoImageDiv img {
     width: 60%;
   }
+
+  .contactInfoContentDiv {
+    align-items: flex-start;
+  }
+
+  .contactInfoContentDiv h3 {
+    text-align: left;
+  }
+
+  .contactInfoContentLogoDiv {
+    width: 64px;
+    height: 64px;
+  }
+
+  .contactInfoLinksNewContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
+
 @media only screen and (max-width: 600px) {
   .contactInfoImageDiv img {
     width: 80%;
   }
+
   .contactInfoIcons {
     border-radius: 25px;
     height: 50px;
     width: 50px;
   }
+
   .contactInfoLinkIconNew {
     width: 40px;
     height: 40px;
     border-radius: 20px;
   }
+
   .contactInfoLinksNewContainer {
     margin-top: 3%;
   }
+
   .contactInfoLinksNewContainer button {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 520px) {
   .contactInfoImageDiv img {
     width: 90%;
   }
+
   .contactInfoLinksDiv {
     margin: 7% 0;
   }
+
   .contactInfoContentDiv h3 {
     margin-top: 3%;
   }
+
   .contactInfoContentDiv h3 {
     font-size: 28px;
   }
-  .contactInfoLinksNewContainer {
-    transform: scale(0.9);
+
+  .contactInfoLinksNewContainer button {
+    gap: 5px;
+    padding: 10px 25px;
   }
 }

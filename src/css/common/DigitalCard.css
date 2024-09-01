@@ -2,16 +2,20 @@
   width: 100%;
   padding: 5%;
 }
+
 .digitalCardImage {
   width: 100%;
 }
+
 .digitalCardImage img {
   width: 100%;
 }
+
 .digitalCardContentDiv {
   width: 100%;
   margin-top: -8%;
 }
+
 .digitalCardContentDiv h3 {
   font-family: Nunito Sans;
   font-size: 24px;
@@ -22,6 +26,7 @@
   color: #003b7e;
   white-space: nowrap;
 }
+
 .digitalCardList h4 {
   font-family: DM Sans;
   font-size: 18px;
@@ -32,12 +37,14 @@
   color: #454238;
   margin: 5% 0 3% 0;
 }
+
 .digitalCardListBullets {
   display: flex;
   margin: 1% 0;
   align-items: center;
   gap: 3%;
 }
+
 .digitalCardListBullets p {
   font-family: DM Sans;
   font-size: 18px;
@@ -47,14 +54,17 @@
   text-align: left;
   color: #454238;
 }
+
 @media only screen and (max-width: 1200px) {
   .digitalCardContentDiv h3 {
     font-size: 22px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .digitalCardContentDiv h3 {
     font-size: 24px;
     text-align: center;
+    white-space: wrap;
   }
 }

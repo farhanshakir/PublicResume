@@ -23,7 +23,7 @@ export default function Header() {
             <PlaceIcon sx={{ color: '#0E88FA' }} /> Abu Dhabi, UAE
           </button>
           <a href="mailto:farhan11.fk22@gmail.com" className="headerEmailBtn">
-            <EmailIcon /> Contact Me!
+            <EmailIcon /> farhan11.fk22@gmail.com
           </a>
         </div>
         <p>
@@ -43,7 +43,7 @@ export default function Header() {
             <PlaceIcon sx={{ color: '#0E88FA' }} /> Abu Dhabi, UAE
           </button>
           <a href="mailto:farhan11.fk22@gmail.com" className="headerEmailBtn">
-            <EmailIcon /> Contact Me!
+            <EmailIcon /> farhan11.fk22@gmail.com
           </a>
         </div>
       </div>
