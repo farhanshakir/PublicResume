@@ -34,6 +34,8 @@ export default function Certification() {
           year3="2023"
           year4="2023"
           year5="2022"
+          link1="https://www.coursera.org/account/accomplishments/verify/AALSN85XWD63"
+          link2="https://www.coursera.org/account/accomplishments/verify/DDCKJUQ9GLJN"
           link3="https://www.coursera.org/account/accomplishments/certificate/PRQMAQPNGAPA"
           link4="https://www.coursera.org/account/accomplishments/certificate/GHSXCWMK5C4S"
           link5="https://coursera.org/verify/EPX2NAUDD7HA"

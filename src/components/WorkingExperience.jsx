@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 // Init
 import React from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';

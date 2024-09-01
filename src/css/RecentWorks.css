@@ -205,14 +205,14 @@
 
 @media only screen and (max-width: 1200px) {
   .projectCardDiv {
-    height: 500px;
+    height: 700px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .projectCardContainer {
+  /* .projectCardContainer {
     padding-left: 5%;
-  }
+  } */
 
   .projectCardDiv {
     justify-content: center;
@@ -261,11 +261,11 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .projectCardImageDivMob img {
     width: 80%;
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .projectCardContentDiv {
@@ -279,7 +279,7 @@
     padding-left: 0;
   }
 
-  .projectCardImageDivMob img {
+  /* .projectCardImageDivMob img {
     width: 100%;
-  }
+  } */
 }

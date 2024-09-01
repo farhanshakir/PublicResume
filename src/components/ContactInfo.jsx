@@ -1,5 +1,3 @@
-/* eslint-disable no-nested-ternary */
-/* eslint-disable react/no-unescaped-entities */
 // Init
 import React from 'react';
 import DownloadIcon from '@mui/icons-material/Download';
