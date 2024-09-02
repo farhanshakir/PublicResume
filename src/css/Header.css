@@ -5,11 +5,13 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding: 10% 5%;
+  padding: 15% 5% 10% 5%;
 }
+
 .headerTextContainer {
   width: 55%;
 }
+
 .headerTextContainer h3 {
   font-family: DM Sans;
   font-size: 24px;
@@ -19,6 +21,7 @@
   text-align: left;
   color: #ffffff;
 }
+
 .headerTextContainer h4 {
   font-family: DM Sans;
   font-size: 16px;
@@ -30,6 +33,7 @@
   color: #ffffff;
   display: none;
 }
+
 .headerTextContainer h1 {
   font-family: 'Antonio', sans-serif;
   font-size: 60px;
@@ -40,6 +44,7 @@
   color: #ffffff;
   margin: 2% 0;
 }
+
 .headerTextContainer p {
   font-family: 'DM Sans', sans-serif;
   font-size: 24px;
@@ -49,11 +54,13 @@
   text-align: left;
   color: #ffffff;
 }
+
 .headerBtncontainerMob {
   display: none;
   width: 100%;
   flex-wrap: wrap;
 }
+
 .headerBtncontainerMob button {
   width: 100%;
   display: flex;
@@ -64,6 +71,7 @@
   margin: 1% 0;
   padding: 1% 0;
 }
+
 .headerBtncontainerMob a {
   width: 100%;
   display: flex;
@@ -75,11 +83,13 @@
   padding: 1% 0;
   cursor: pointer;
 }
+
 .headerBtncontainer {
   display: flex;
   align-items: center;
   gap: 3%;
 }
+
 .headerBtncontainer button {
   padding: 1% 4%;
   margin: 3% 0;
@@ -89,6 +99,7 @@
   gap: 5%;
   white-space: nowrap;
 }
+
 .headerBtncontainer a {
   padding: 1% 4%;
   margin: 3% 0;
@@ -99,6 +110,7 @@
   white-space: nowrap;
   cursor: pointer;
 }
+
 .headerLocationBtn {
   font-family: DM Sans;
   font-size: 18px;
@@ -110,6 +122,7 @@
   border-radius: 50px;
   border: none;
 }
+
 .headerEmailBtn {
   font-family: DM Sans;
   font-size: 18px;
@@ -123,6 +136,7 @@
   background-color: transparent;
   text-decoration: underline;
 }
+
 .headerImageDiv {
   width: 70%;
   position: absolute;
@@ -136,6 +150,7 @@
   z-index: 2;
   /* transform: scale(0.9); */
 }
+
 .headerTagsImageDiv {
   position: absolute;
   right: 0;
@@ -143,107 +158,135 @@
   justify-content: flex-end;
   align-items: center;
 }
+
 .headerTagsImageDiv img {
   width: 100%;
 }
+
 .headerImageDiv img {
   width: 80%;
 }
+
 .headerPathDiv {
   position: absolute;
   bottom: 2%;
   left: 29%;
 }
+
 .headerPathDiv img {
   width: 100%;
 }
+
 .headerImageDivMob {
   display: none;
 }
+
 .headerImageDivMob img {
   width: 100%;
 }
+
 @media only screen and (max-width: 1500px) {
   .headerTextContainer h3 {
     font-size: 22px;
   }
+
   .headerTextContainer h1 {
     font-size: 50px;
   }
+
   .headerTextContainer p {
     font-size: 22px;
   }
+
   .headerPathDiv {
     position: absolute;
     bottom: 2%;
     left: 33%;
   }
+
   .headerPathDiv img {
     width: 70%;
   }
+
   .headerTagsImageDiv img {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 1366px) {
   .headerImageDiv img {
     width: 85%;
   }
+
   .headerPathDiv {
     position: absolute;
     bottom: 0;
     left: 27%;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .headerContainer {
     justify-content: space-between;
   }
+
   .headerTextContainer {
     width: 60%;
   }
+
   .headerImageDiv {
     display: none;
   }
+
   .headerTagsImageDiv {
     display: none;
   }
+
   .headerPathDiv {
     display: none;
   }
+
   .headerImageDivMob {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .headerTextContainer h3 {
     font-size: 20px;
   }
+
   .headerTextContainer h1 {
     font-size: 46px;
   }
+
   .headerTextContainer p {
     font-size: 18px;
     line-height: 27px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .headerTextContainer h3 {
     font-size: 18px;
   }
+
   .headerTextContainer h1 {
     font-size: 42px;
   }
+
   .headerTextContainer p {
     font-size: 16px;
     line-height: 25px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .headerContainer {
     flex-direction: column-reverse;
   }
+
   .headerTextContainer {
     display: flex;
     flex-direction: column;
@@ -252,15 +295,19 @@
     width: 80%;
     margin-top: -5%;
   }
+
   .headerTextContainer h1 {
     font-size: 48px;
   }
+
   .headerTextContainer h3 {
     display: none;
   }
+
   .headerBtncontainer {
     display: none;
   }
+
   .headerTextContainer h4 {
     width: 100%;
     display: flex;
@@ -269,35 +316,43 @@
     text-align: center;
     margin: 2% 0;
   }
+
   .headerTextContainer p {
     text-align: justify;
     line-height: normal;
     margin-top: 3%;
   }
+
   .headerBtncontainerMob {
     display: flex;
   }
+
   .headerImageDivMob {
     width: 50%;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .headerTextContainer {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .headerTextContainer {
     width: 90%;
   }
+
   .headerImageDivMob {
     width: 70%;
   }
 }
+
 @media only screen and (max-width: 520px) {
   .headerTextContainer {
     width: 100%;
   }
+
   .headerImageDivMob {
     width: 90%;
   }

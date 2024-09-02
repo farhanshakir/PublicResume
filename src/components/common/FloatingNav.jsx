@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 // Init
 import React, { useEffect, useState } from 'react';
 import DownloadIcon from '@mui/icons-material/Download';
-import Logo from '../../assets/logo.svg';
+import Logo from '../../assets/newLogo.svg';
 import LinkedIn from '../../assets/linkedinIcon.svg';
 import Behance from '../../assets/behanceIcon.svg';
 import Email from '../../assets/emailIcon.svg';
@@ -10,8 +12,14 @@ import Path from '../../assets/resume/FarhanResume.pdf';
 
 // Component
 
-export default function FloatingNav() {
-  const [isFloatingVisible, setIsFloatingVisible] = useState(false);
+export default function FloatingNav({
+  onNavClick,
+  experienceRef,
+  skillsRef,
+  projectsRef,
+  educationRef,
+}) {
+  const [isFloatingVisible, setIsFloatingVisible] = useState(true);
 
   const downloadPdf = () => {
     // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
@@ -27,7 +35,7 @@ export default function FloatingNav() {
     if (window.scrollY >= 100) {
       setIsFloatingVisible(true);
     } else {
-      setIsFloatingVisible(false);
+      setIsFloatingVisible(true);
     }
   };
 
@@ -41,6 +49,12 @@ export default function FloatingNav() {
   return (
     <div className={`floatingNavContainer ${isFloatingVisible ? 'floatingNavVisible' : ''}`}>
       <div className="floatingNavDiv">
+        <div className="floatingNavLeftDiv">
+          <p onClick={() => onNavClick(experienceRef)}>Experience</p>
+          <p onClick={() => onNavClick(skillsRef)}>Skills</p>
+          <p onClick={() => onNavClick(projectsRef)}>Projects</p>
+          <p onClick={() => onNavClick(educationRef)}>Education</p>
+        </div>
         <div className="floatingNavLogoDiv">
           <img src={Logo} alt="logo" />
         </div>

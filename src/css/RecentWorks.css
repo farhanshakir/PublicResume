@@ -5,14 +5,16 @@
   display: flex;
   flex-direction: column;
 }
+
 .projectCardContainer {
   width: 100%;
-  background: url(../assets/project_section_bg.png),
+  /* background: url(../assets/project_section_bg.png),
     linear-gradient(270deg, #006ca9 0%, #05af96 100.49%), #003b7e;
   background-size: cover;
-  background-blend-mode: multiply, normal, normal;
+  background-blend-mode: multiply, normal, normal; */
   height: 100%;
 }
+
 .projectCardContainer h2 {
   color: #ffffff;
   font-family: 'Antonio';
@@ -25,6 +27,7 @@
   text-align: center;
   padding-top: 5%;
 }
+
 .projectCardDiv {
   width: 100%;
   margin-top: 1%;
@@ -34,68 +37,127 @@
   align-items: center;
   height: 600px;
 }
+
 .projectCardContentDiv {
   margin-left: 5%;
   width: 35%;
   z-index: 2;
 }
+
 .projectCardLogoDiv {
   width: 100%;
+  /* height: 100px; */
 }
+
 .projectCardLogoDiv img {
-  width: 65%;
+  /* width: 65%; */
+  height: 100%;
 }
+
 .projectCardDesp {
   width: 100%;
   margin: 5% 0;
 }
+
 .projectCardDesp p {
-  font-family: 'DM Sans',;
+  font-family: 'DM Sans';
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
   color: #f3f3f3;
 }
+
 .projectCardDesp p span {
   color: #ffffff;
   font-family: 'DM Sans';
   font-weight: 700;
 }
+
 .projectCardDesp p a {
   color: #ffffff;
   font-family: 'DM Sans';
   font-weight: 700;
   text-decoration: underline;
 }
+
 .projectCardTagsDiv {
   display: flex;
   align-items: flex-start;
   gap: 2%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-top: 3%;
 }
+
 .projectCardTag {
   align-items: flex-start;
-  background-color: #ffffff;
-  border-radius: 50px;
+  /* background-color: #ffffff; */
+  /* border-radius: 50px; */
   padding: 2% 4%;
   margin: 1% 0;
+  border-radius: 12px;
 }
+
 .projectCardTag p {
-  -webkit-background-clip: text !important;
+  /* -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(5, 175, 150) 0%, rgb(0, 108.12, 168.94) 100%);
-  background-clip: text;
-  color: transparent;
-  font-family: 'DM Sans-Medium', Helvetica;
-  font-size: 20px;
-  font-weight: 500;
+  background: linear-gradient(180deg, rgb(5, 175, 150) 0%, rgb(0, 108.12, 168.94) 100%); */
+  /* background-clip: text; */
+  /* color: transparent; */
+  /* font-family: 'DM Sans-Medium', Helvetica; */
   letter-spacing: 0;
-  line-height: normal;
   white-space: nowrap;
   width: fit-content;
+
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
+
+.projectCardDemoBtn {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  display: inline-flex;
+  padding: 15px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.projectCardDemoBtn p {
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.projectCardDemoMobBtn {
+  display: none;
+  padding: 15px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.projectCardDemoMobBtn p {
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
 .projectCardImageDiv {
   position: absolute;
   right: 0;
@@ -108,44 +170,67 @@
   align-items: end;
   justify-content: end;
 }
+
 .projectCardImageDiv img {
   object-fit: contain;
   width: 100%;
 }
+
 .projectCardImageDivMob {
   display: none;
 }
+
 @media only screen and (max-width: 1366px) {
+  .projectCardTagsDiv {
+    flex-wrap: wrap;
+  }
+
   .projectCardTag p {
     font-size: 18px;
   }
-  .projectCardLogoDiv img {
-    width: 60%;
+
+  /* .projectCardLogoDiv img {
+    height: 100%;
+  } */
+
+  .projectCardDemoBtn {
+    display: none;
+  }
+
+  .projectCardDemoMobBtn {
+    display: inline-flex;
+    margin-top: 20px;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .projectCardDiv {
-    height: 500px;
+    height: 700px;
   }
 }
+
 @media only screen and (max-width: 900px) {
-  .projectCardContainer {
+  /* .projectCardContainer {
     padding-left: 5%;
-  }
+  } */
+
   .projectCardDiv {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     height: 100%;
   }
+
   .projectCardContentDiv {
     margin-left: 5%;
     width: 85%;
     z-index: 2;
   }
+
   .projectCardImageDiv {
     display: none;
   }
+
   .projectCardImageDivMob {
     display: flex;
     align-items: flex-end;
@@ -153,9 +238,11 @@
     width: 100%;
     margin-top: 5%;
   }
+
   .projectCardImageDivMob img {
-    width: 70%;
+    width: 100%;
   }
+
   .projectCardLogoDiv {
     margin-top: 5%;
   }
@@ -163,19 +250,23 @@
   .projectCardLogoDiv img {
     width: 45%;
   }
+
   .projectCardDesp {
     width: 100%;
     margin: 3% 0;
   }
+
   .projectCardDesp p {
     text-align: justify;
   }
 }
-@media only screen and (max-width: 768px) {
+
+/* @media only screen and (max-width: 768px) {
   .projectCardImageDivMob img {
     width: 80%;
   }
-}
+} */
+
 @media only screen and (max-width: 600px) {
   .projectCardContentDiv {
     margin-left: 5%;
@@ -183,10 +274,12 @@
     width: 90%;
     z-index: 2;
   }
+
   .projectCardContainer {
     padding-left: 0;
   }
-  .projectCardImageDivMob img {
+
+  /* .projectCardImageDivMob img {
     width: 100%;
-  }
+  } */
 }

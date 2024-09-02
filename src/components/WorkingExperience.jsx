@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 // Init
 import React from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -42,7 +41,7 @@ export default function WorkingExperience() {
     },
     {
       date: 'Apr 2022 - Jan 2024',
-      location: 'Lahore, Pakistan',
+      location: 'Lahore',
       company: 'Falcon Consulting',
       position: 'UI/UX Team Lead',
       image: Falcon,
@@ -55,7 +54,7 @@ export default function WorkingExperience() {
     },
     {
       date: 'Nov 2021 - Jan 2024',
-      location: 'Lahore, Pakistan',
+      location: 'Lahore',
       company: 'Falcon Consulting',
       position: 'Sr. UI/UX Designer',
       image: Falcon,

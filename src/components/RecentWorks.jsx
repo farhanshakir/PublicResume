@@ -1,17 +1,26 @@
 // Init
 import React from 'react';
 import ProjectCard from './common/ProjectCard';
-import RepisodicLogo from '../assets/repisodic_logo.svg';
-import Repisodic from '../assets/repisodic.png';
-import RepisodicMob from '../assets/repisodicMob.png';
-import SalesPro from '../assets/salesPro.png';
-import SalesProMob from '../assets/salesproMob.png';
-import SalesProLogo from '../assets/salesPro_logo.svg';
-import Kidcab from '../assets/kidcab.png';
-import KidcabMob from '../assets/kidcabMob.png';
-import KidcabLogo from '../assets/kidcab_logo.svg';
+// import RepisodicLogo from '../assets/repisodic_logo.svg';
+// import Repisodic from '../assets/repisodic.png';
+// import RepisodicMob from '../assets/repisodicMob.png';
+import Nationwide from '../assets/nationwide.png';
+import NationwideLogo from '../assets/nationwideLogo.svg';
+import NationwideMob from '../assets/nationwideMobBg.svg';
+// import SalesPro from '../assets/salesPro.png';
+// import SalesProMob from '../assets/salesproMob.png';
+// import SalesProLogo from '../assets/salesPro_logo.svg';
+import MdiBg from '../assets/mdiBg.png';
+import MdiLogo from '../assets/mdiLogo.svg';
+import MdiMob from '../assets/mdiMobBg.svg';
+// import Kidcab from '../assets/kidcab.png';
+// import KidcabLogo from '../assets/kidcab_logo.svg';
+// import KidcabMob from '../assets/kidcabMob.png';
+import BlinkBg from '../assets/blinkBg.png';
+import BlinkLogo from '../assets/blinkLogo.svg';
+import BlinkMob from '../assets/blinkMobBg.svg';
 import Bibo from '../assets/bibo.png';
-import BiboMob from '../assets/biboMob.png';
+import BiboMob from '../assets/biboMobBg.svg';
 import BiboLogo from '../assets/bibo_logo.svg';
 
 // Component
@@ -20,59 +29,60 @@ export default function RecentWorks() {
     <div className="recentWorkContainer">
       <ProjectCard
         topHeading
-        Logo={RepisodicLogo}
-        desp="Transforming the Healthcare Experience: At Repisodic, I played a pivotal role in
-              crafting a patient-centric platform that empowers individuals and families to make
-              informed decisions about post-acute care. Through intuitive user interfaces and
-              streamlined interactions, we revolutionized the post-acute care selection process."
-        linkText="www.repisodic.com"
-        link="https://www.repisodic.com/"
-        tag1="HealthTech"
-        tag2="Health Management"
-        tag3="Patient Care"
-        bgImage={Repisodic}
-        bgImageMob={RepisodicMob}
-        gradientColor1="#006ca9"
-        gradientColor2="#05af96"
+        Logo={NationwideLogo}
+        desp="Redesigned mobile app and updated the web app, focusing on enhancing user engagement and optimizing navigation for the UAE real estate market. Delivered an experience that encourages regular use, with improvements based on local market insights and user feedback, leading to increased usability and user satisfaction."
+        // linkText="www.repisodic.com"
+        link="https://www.nwmea.com/"
+        tag1="Real Estate"
+        tag2="Property Management"
+        tag3="Rental Property"
+        TagBg="#AA8A39"
+        bgImage={Nationwide}
+        bgImageMob={NationwideMob}
+        gradientColor1="#AA8A39"
+        gradientColor2="#0D2952"
       />
       <ProjectCard
-        Logo={SalesProLogo}
-        desp="Elevating E-Commerce Excellence: As part of the SalesPro Direct team, I contributed to creating a seamless and engaging online shopping destination. Our focus on user-friendly interfaces and captivating design resulted in an enhanced retail experience that boosts customer engagement and conversions."
-        linkText="www.salesprodirect.com"
-        link="https://www.figma.com/file/FkS1gQ7ZtdjiH1W8qTVcLC/Salespro-Direct?type=design&t=OGzZFnCln62lG2eg-6"
-        tag1="Retail Branding"
-        tag2="E-Commerce"
-        tag3="Business/Productivity"
-        bgImage={SalesPro}
-        bgImageMob={SalesProMob}
-        gradientColor1="#236FDA"
-        gradientColor2="#2A7FF8"
+        Logo={MdiLogo}
+        desp="Designed an AI-driven document signing platform for seamless contract management among multiple parties. Focused on enhancing user experience through comprehensive UX research and mobile responsiveness, ensuring a smooth and efficient signing process across devices. Delivered an intuitive and secure interface that simplifies complex workflows and improves user satisfaction."
+        // linkText="www.salesprodirect.com"
+        link="https://www.figma.com/proto/qggHlgzqNa9wxuPC8xlu9O/IMDI?node-id=302-714&t=PTbAWXBsTihoK7dx-1&starting-point-node-id=302%3A714"
+        tag1="Document Signing"
+        tag2="AI-Driven"
+        tag3="Document Management"
+        TagBg="#4C81E8"
+        bgImage={MdiBg}
+        bgImageMob={MdiMob}
+        gradientColor1="#4C81E8"
+        gradientColor2="#00419D"
       />
       <ProjectCard
-        Logo={KidcabLogo}
-        desp="Revolutionizing Child Transportation: Kidcab presented an exciting opportunity to design a kid-friendly transportation service. Through creative UX solutions and child-centric interfaces, we created an app that ensures safe and enjoyable rides for young passengers."
-        linkText="www.kidcab.fr"
-        link="https://kidcab.fr/"
-        tag1="Transportation"
-        tag2="Child Services"
-        tag3="FamilyTech"
-        bgImage={Kidcab}
-        bgImageMob={KidcabMob}
-        gradientColor1="#47B9B4"
-        gradientColor2="#47B9B4"
+        Logo={BlinkLogo}
+        desp="I contributed to a high-end event management platform designed to streamline VIP experiences. Developed a seamless and dynamic interface for managing events, integrating features for travel, logistics, and real-time updates. Focused on delivering design that enhanced operational efficiency and guest satisfaction, transforming complex event management into a smooth, organized experience."
+        // linkText="www.kidcab.fr"
+        link="https://blink.global/"
+        tag1="Event Management"
+        tag2="Hospitality"
+        tag3="SaaS"
+        TagBg="#060606"
+        bgImage={BlinkBg}
+        bgImageMob={BlinkMob}
+        gradientColor1="#393A3A"
+        gradientColor2="#000"
       />
       <ProjectCard
         Logo={BiboLogo}
-        desp="Simplifying Point-of-Sale Transactions: With Bibo, we aimed to revolutionize the point-of-sale experience. I actively participated in designing an innovative mobile solution that streamlines transactions and enhances retail operations. Our user-centric approach and elegant interfaces transformed the way businesses handle transactions."
-        linkText="Google Play Store"
+        desp="I played a pivotal role in designing an innovative mobile and web app aimed at revolutionizing the point-of-sale experience. Through our user-centric approach and elegant interfaces, we simplified transactions and enhanced retail operations. Our solution streamlined point-of-sale interactions, leading to increased operational efficiency and customer satisfaction. The intuitive design has profoundly impacted how businesses handle transactions, setting new standards in the retail sector."
+        // linkText="Google Play Store"
         link="https://play.google.com/store/apps/details?id=com.ako.bibopos"
         tag1="FinTech"
         tag2="RetailTech"
         tag3="Mobile Payments"
+        TagBg="#036399"
         bgImage={Bibo}
         bgImageMob={BiboMob}
         gradientColor1="#006BA6"
-        gradientColor2="#006BA6"
+        gradientColor2="#033E5E"
       />
     </div>
   );

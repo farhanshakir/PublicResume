@@ -11,6 +11,7 @@
 .floatingNavVisible {
   display: flex;
 }
+
 .floatingNavDiv {
   display: flex;
   /* align-items: center; */
@@ -21,21 +22,43 @@
   border-radius: 30px;
   box-shadow: 0px 20px 40px 15px rgba(65, 107, 255, 0.16), 0px 2px 5px 0px rgba(255, 255, 255, 0.25);
 }
-.floatingNavLogoDiv {
-  width: 18%;
+
+.floatingNavLeftDiv {
   display: flex;
   align-items: center;
+  gap: 25px;
+  width: 45%;
 }
+
+.floatingNavLeftDiv p {
+  color: #121212;
+  font-family: 'DM Sans';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.floatingNavLogoDiv {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .floatingNavLogoDiv img {
   width: 100%;
+  height: 100%;
 }
+
 .floatingNavRightDiv {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  width: 70%;
+  width: 45%;
 }
+
 .floatingNavIconDiv {
   display: flex;
   align-items: center;
@@ -46,9 +69,11 @@
   background-color: #416bff;
   cursor: pointer;
 }
+
 .floatingNavIconDiv img {
   width: 45%;
 }
+
 .downloadResume {
   display: flex;
   align-items: center;
@@ -67,6 +92,7 @@
   cursor: pointer;
   text-decoration: none;
 }
+
 @media only screen and (max-width: 1500px) {
   .floatingNavIconDiv {
     width: 40px;
@@ -74,16 +100,31 @@
     border-radius: 20px;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .floatingNavDiv {
     width: 85%;
   }
+
+  .floatingNavLeftDiv {
+    gap: 20px;
+  }
+
+  .floatingNavLeftDiv p {
+    font-size: 18px;
+  }
 }
+
 @media only screen and (max-width: 1024px) {
   .floatingNavDiv {
     width: 90%;
   }
+
+  .floatingNavLeftDiv {
+    display: none;
+  }
 }
+
 @media only screen and (max-width: 768px) {
   .floatingNavVisible {
     display: none;

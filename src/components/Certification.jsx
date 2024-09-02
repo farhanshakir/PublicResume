@@ -16,27 +16,38 @@ export default function Certification() {
         <img src={Globe} alt="Globe" />
       </div>
       <div className="educationSectionContentDiv">
-        <h2>CERTIFICATION</h2>
+        <h2>CERTIFICATION & ACHIEVEMENTS </h2>
         <CertificateTag
           Icon={Google}
-          title1="Build Wireframes and Low-Fidelity Prototypes"
-          title2="UX Design Process"
-          title3="Foundations of UX Design"
+          title1="Create High-Fidelity Designs and Prototypes in Figma"
+          title2="Conduct UX Research and Test Early Concepts"
+          title3="Build Wireframes and Low-Fidelity Prototypes"
+          title4="UX Design Process"
+          title5="Foundations of UX Design"
           organization1="Google"
           organization2="Google"
           organization3="Google"
-          year1="2023"
-          year2="2023"
-          year3="2022"
-          link1="https://www.coursera.org/account/accomplishments/certificate/PRQMAQPNGAPA"
-          link2="https://www.coursera.org/account/accomplishments/certificate/GHSXCWMK5C4S"
-          link3="https://coursera.org/verify/EPX2NAUDD7HA"
+          organization4="Google"
+          organization5="Google"
+          year1="2024"
+          year2="2024"
+          year3="2023"
+          year4="2023"
+          year5="2022"
+          link1="https://www.coursera.org/account/accomplishments/verify/AALSN85XWD63"
+          link2="https://www.coursera.org/account/accomplishments/verify/DDCKJUQ9GLJN"
+          link3="https://www.coursera.org/account/accomplishments/certificate/PRQMAQPNGAPA"
+          link4="https://www.coursera.org/account/accomplishments/certificate/GHSXCWMK5C4S"
+          link5="https://coursera.org/verify/EPX2NAUDD7HA"
         />
         <CertificateTag
           Icon={Falcon}
-          title1="Hidden Gem"
+          title1="Employee of the Year"
           organization1="Falcon Consulting"
-          year1="2022"
+          year1="2023"
+          title2="Hidden Gem"
+          organization2="Falcon Consulting"
+          year2="2022"
         />
         <CertificateTag
           Icon={Virtual}

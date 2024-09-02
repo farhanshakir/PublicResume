@@ -1,5 +1,5 @@
 // Init
-import React from 'react';
+import React, { useRef } from 'react';
 
 // Importing Components
 import Header from '../components/Header';
@@ -15,16 +15,46 @@ import FloatingNav from '../components/common/FloatingNav';
 
 // Home Component
 export default function Home() {
+  const experienceRef = useRef(null);
+  const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
+  const educationRef = useRef(null);
+
+  const handleScrollTo = (ref) => {
+    if (ref.current) {
+      const elementPosition = ref.current.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - 100; // Adjust the 100px offset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  };
   return (
     <div>
-      <FloatingNav />
+      <FloatingNav
+        onNavClick={(ref) => handleScrollTo(ref)}
+        experienceRef={experienceRef}
+        skillsRef={skillsRef}
+        projectsRef={projectsRef}
+        educationRef={educationRef}
+      />
       <Header />
-      <WorkingExperience />
+      <div ref={experienceRef}>
+        <WorkingExperience />
+      </div>
       <DigitalExperience />
-      <RecentWorks />
-      <Education />
+      <div ref={projectsRef}>
+        <RecentWorks />
+      </div>
+      <div ref={educationRef}>
+        <Education />
+      </div>
       <Certification />
-      <ExperienceTools />
+      <div ref={skillsRef}>
+        <ExperienceTools />
+      </div>
       <ContactInfo />
       <Footer />
     </div>

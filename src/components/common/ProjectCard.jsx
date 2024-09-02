@@ -1,6 +1,7 @@
 // Init
 import React from 'react';
-import BgEffect from '../../assets/project_section_bg.png';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+// import BgEffect from '../../assets/project_section_bg.png';
 // Component
 export default function ProjectCard(props) {
   const {
@@ -8,7 +9,7 @@ export default function ProjectCard(props) {
     Logo,
     desp,
     link,
-    linkText,
+    // linkText,
     tag1,
     tag2,
     tag3,
@@ -16,14 +17,15 @@ export default function ProjectCard(props) {
     bgImageMob,
     gradientColor1,
     gradientColor2,
+    TagBg,
   } = props;
 
   const cardStyle = {
     width: '100%',
-    background: `url(${BgEffect}), linear-gradient(270deg, ${gradientColor1} 0%, ${gradientColor2} 100.49%), #003b7e`,
+    background: `linear-gradient(90deg, ${gradientColor1} 0%, ${gradientColor2} 100%)`,
     backgroundSize: 'cover',
     backgroundBlendMode: 'multiply, normal, normal',
-    height: '100%',
+    // height: '100%',
   };
   return (
     <div className="projectCardContainer" style={cardStyle}>
@@ -36,24 +38,37 @@ export default function ProjectCard(props) {
           <div className="projectCardDesp">
             <p>
               {desp}
-              <span>&nbsp;Link:&nbsp;</span>
+              {/* <span>&nbsp;Link:&nbsp;</span>
               <a href={link} rel="noopener noreferrer" target="_blank">
                 {linkText}
-              </a>
+              </a> */}
             </p>
           </div>
           <div className="projectCardTagsDiv">
-            <div className="projectCardTag">
+            <div className="projectCardTag" style={{ background: TagBg }}>
               <p>{tag1}</p>
             </div>
-            <div className="projectCardTag">
+            <div className="projectCardTag" style={{ background: TagBg }}>
               <p>{tag2}</p>
             </div>
-            <div className="projectCardTag">
+            <div className="projectCardTag" style={{ background: TagBg }}>
               <p>{tag3}</p>
             </div>
           </div>
+          <a
+            href={link}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="projectCardDemoMobBtn"
+          >
+            <p>Live Demo</p>
+            <ArrowForwardIcon sx={{ color: '#fff', fontSize: '20px' }} />
+          </a>
         </div>
+        <a href={link} rel="noopener noreferrer" target="_blank" className="projectCardDemoBtn">
+          <p>Live Demo</p>
+          <ArrowForwardIcon sx={{ color: '#fff', fontSize: '20px' }} />
+        </a>
         <div className="projectCardImageDiv">
           <img src={bgImage} alt="ProjectImage" />
         </div>

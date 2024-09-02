@@ -7,6 +7,7 @@
   padding: 2% 5%;
   background: linear-gradient(127.16deg, #2e2f32 11.06%, #101111 85.05%, #000000 91.55%);
 }
+
 .workingExperienceContainer h2 {
   font-family: Antonio;
   font-size: 48px;
@@ -15,10 +16,12 @@
   letter-spacing: 0px;
   color: #ffffff;
 }
+
 .workingExperienceContentDiv {
   margin-top: 2%;
   width: 70%;
 }
+
 .workingExperienceSection {
   width: 100%;
   display: flex;
@@ -26,6 +29,7 @@
   padding: 1% 0;
   margin: 1% 0;
 }
+
 .workingExperienceSideBullets {
   width: 2%;
   height: 100%;
@@ -36,25 +40,30 @@
   align-items: center;
   justify-content: center;
 }
+
 .workingExperienceSideLine {
   width: 2px;
   height: 100px;
   background-color: #4f4f4f;
 }
+
 .workingExperienceSummaryContainer {
   width: 95%;
   display: flex;
   justify-content: space-between;
 }
+
 .workingExperienceSummaryDiv {
   width: 45%;
 }
+
 .workingExperienceDate {
   width: 100%;
   display: flex;
   gap: 6%;
   white-space: nowrap;
 }
+
 .workingExperienceSummaryDiv p {
   font-family: DM Sans;
   font-size: 16px;
@@ -64,10 +73,12 @@
   text-align: left;
   color: #ffffff;
 }
+
 .workingExperienceLocation {
   display: flex;
   gap: 5%;
 }
+
 .workingExperienceCompanyDiv {
   display: flex;
   gap: 4%;
@@ -75,21 +86,25 @@
   margin-top: 2%;
   align-items: center;
 }
+
 .workingExperienceCompanyImage {
   width: 70px;
   height: 70px;
   border-radius: 20px;
   overflow: hidden;
 }
+
 .workingExperienceCompanyImage img {
   width: 100%;
   height: 100%;
 }
+
 .workingExperienceCompanyPosition {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
+
 .workingExperienceCompanyPosition h3 {
   font-family: DM Sans;
   font-size: 20px;
@@ -99,6 +114,7 @@
   text-align: left;
   color: #ffffff;
 }
+
 .workingExperienceCompanyPosition a {
   font-family: DM Sans;
   font-size: 18px;
@@ -110,9 +126,11 @@
   cursor: pointer;
   text-decoration: none;
 }
+
 .workingExperiencePointsDiv {
   width: 48%;
 }
+
 .workingExperiencePointsDiv ul {
   font-family: DM Sans;
   font-size: 18px;
@@ -121,72 +139,94 @@
   letter-spacing: 0.01em;
   color: #ffffff;
 }
+
 @media only screen and (max-width: 1500px) {
   .workingExperienceContentDiv {
     width: 80%;
   }
 }
+
 @media only screen and (max-width: 1366px) {
   .workingExperienceContentDiv {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .workingExperienceCompanyPosition h3 {
     font-size: 18px;
   }
+
   .workingExperienceCompanyPosition a {
     font-size: 16px;
   }
+
   .workingExperiencePointsDiv ul {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .workingExperienceSection {
     margin: 3% 0;
   }
+
   .workingExperienceSummaryContainer {
     width: 93%;
     flex-direction: column;
   }
+
   .workingExperienceSummaryDiv {
     width: 100%;
   }
+
   .workingExperiencePointsDiv {
     width: 100%;
     margin: 2% 0;
   }
+
   .workingExperiencePointsDiv ul {
     line-height: 25px;
   }
+
   .workingExperienceSideLine {
     height: 150px;
   }
+
   .workingExperienceContainer h2 {
     font-size: 42px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .workingExperienceSummaryContainer {
     width: 90%;
   }
+
   .workingExperienceContainer h2 {
     font-size: 38px;
   }
+
   .workingExperienceCompanyImage {
     width: 60px;
     height: 60px;
   }
+
   .workingExperienceSection {
     margin: 5% 0;
   }
 }
+
 @media only screen and (max-width: 520px) {
   .workingExperienceCompanyPosition h3 {
     font-size: 16px;
   }
+
   .workingExperiencePointsDiv ul {
     font-size: 14px;
+  }
+
+  .workingExperienceDate {
+    white-space: wrap;
   }
 }
