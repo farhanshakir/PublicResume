@@ -43,7 +43,7 @@ export default function Home() {
       <Header />
       <div ref={experienceRef}>
         <WorkingExperience />
-      </div>  
+      </div>
       <div ref={skillsRef}>
         <DigitalExperience />
       </div>
