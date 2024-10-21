@@ -6,7 +6,7 @@ import Falcon from '../assets/falconIcon.png';
 import Upwork from '../assets/upworkIcon.png';
 import Photer from '../assets/photerIcon.png';
 import Blink from '../assets/Blink.jpeg';
-import XQT from '../assets/XQT.jpeg';
+import CNTXT from '../assets/CNTXT.jpg';
 
 // Component
 export default function WorkingExperience() {
@@ -14,15 +14,15 @@ export default function WorkingExperience() {
     {
       date: 'Feb 2024 - Present',
       location: 'Abu Dhabi, UAE',
-      company: 'XQT Labs',
+      company: 'CNTXT',
       position: 'Product Designer',
-      image: XQT,
-      link: 'https://www.linkedin.com/company/xqt-labs/',
+      image: CNTXT,
+      link: 'https://www.linkedin.com/company/cntxtai/',
       points: [
         'Lead design efforts for Nationwide, a key real estate project in the UAE.',
         'Worked on AI-driven projects, including IMDI, a DocuSign web app.',
         'Applied user-centered design & design thinking methodologies across all stages of product development.',
-        'Created intuitive and innovative solutions tailored to user needs.',
+        'Designed Agent DFNSE a real-time battlefield surveillance & threat detection platform integrating AI-driven analysis and multi-source data for military commanders in decision-making.',
       ],
     },
     {
