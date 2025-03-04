@@ -28,10 +28,10 @@ export default function Header() {
         </div>
         <p>
           Hello! I'm an accomplished Product Designer, dedicated to creating exceptional user
-          experiences. With a programming background & over 6 years of experience in the field, I
+          experiences. With a programming background & over 7 years of experience in the field, I
           bring a unique blend of technical expertise and design acumen. My dedication to
           understanding user needs and translating them into visually captivating interfaces has led
-          to successful 60+ projects across various industries.
+          to successful 70+ projects across various industries.
           <br />
           <br />
           From wireframing to prototyping, I thrive on turning ideas into intuitive and engaging
