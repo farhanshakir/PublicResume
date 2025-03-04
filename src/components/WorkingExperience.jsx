@@ -23,6 +23,9 @@ export default function WorkingExperience() {
         'Worked on AI-driven projects, including IMDI, a DocuSign web app.',
         'Applied user-centered design & design thinking methodologies across all stages of product development.',
         'Designed Agent DFNSE a real-time battlefield surveillance & threat detection platform integrating AI-driven analysis and multi-source data for military commanders in decision-making.',
+        'Designed seamless AI/ML experiences as a Product Designer at "NBULA", empowering users to build and deploy machine learning models effortlessly.',
+        'Delivered "NXUS" a data labeling platform with AI-driven workflows, enhancing automation and boosting ML pipeline efficiency. Conducted user research and usability testing to improve user experiences.',
+        'Designing user-centered interfaces and experiences for MOFKRAH, an AI-driven meeting audio note-taking product.',
       ],
     },
     {
