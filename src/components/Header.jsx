@@ -22,8 +22,8 @@ export default function Header() {
           <button type="button" className="headerLocationBtn">
             <PlaceIcon sx={{ color: '#0E88FA' }} /> Abu Dhabi, UAE
           </button>
-          <a href="mailto:farhan11.fk22@gmail.com" className="headerEmailBtn">
-            <EmailIcon /> farhan11.fk22@gmail.com
+          <a href="mailto:hello@farhanshakir.com" className="headerEmailBtn">
+            <EmailIcon /> hello@farhanshakir.com
           </a>
         </div>
         <p>
@@ -42,8 +42,8 @@ export default function Header() {
           <button type="button" className="headerLocationBtn">
             <PlaceIcon sx={{ color: '#0E88FA' }} /> Abu Dhabi, UAE
           </button>
-          <a href="mailto:farhan11.fk22@gmail.com" className="headerEmailBtn">
-            <EmailIcon /> farhan11.fk22@gmail.com
+          <a href="hello@farhanshakir.com" className="headerEmailBtn">
+            <EmailIcon /> hello@farhanshakir.com
           </a>
         </div>
       </div>
