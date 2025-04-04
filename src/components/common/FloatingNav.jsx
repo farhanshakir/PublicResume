@@ -59,7 +59,7 @@ export default function FloatingNav({
           <img src={Logo} alt="logo" />
         </div>
         <div className="floatingNavRightDiv">
-          <a href="mailto:farhan11.fk22@gmail.com" className="floatingNavIconDiv">
+          <a href="mailto:hello@farhanshakir.com" className="floatingNavIconDiv">
             <img src={Email} alt="Email" />
           </a>
           <a
