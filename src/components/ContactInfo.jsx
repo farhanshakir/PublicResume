@@ -37,7 +37,7 @@ export default function ContactInfo() {
             <img src={Call} alt="Call" />
           </a>
 
-          <a href="mailto:farhan11.fk22@gmail.com" className="contactInfoLinkIconNew">
+          <a href="mailto:hello@farhanshakir.com" className="contactInfoLinkIconNew">
             <img src={Email} alt="Email" />
           </a>
 
