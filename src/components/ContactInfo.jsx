@@ -33,7 +33,7 @@ export default function ContactInfo() {
         </div>
         <h3>Let Your Vision Come to Life! Contact Me Today.</h3>
         <div className="contactInfoLinksNewContainer">
-          <a href="tel:+92 315 0403254" className="contactInfoLinkIconNew">
+          <a href="tel:+966 55 629 5039" className="contactInfoLinkIconNew">
             <img src={Call} alt="Call" />
           </a>
 
