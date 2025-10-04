@@ -20,7 +20,7 @@ export default function Header() {
         </h4>
         <div className="headerBtncontainerMob">
           <button type="button" className="headerLocationBtn">
-            <PlaceIcon sx={{ color: '#0E88FA' }} /> Abu Dhabi, UAE
+            <PlaceIcon sx={{ color: '#0E88FA' }} /> Riyadh, Saudi Arabia
           </button>
           <a href="mailto:hello@farhanshakir.com" className="headerEmailBtn">
             <EmailIcon /> hello@farhanshakir.com
@@ -40,7 +40,7 @@ export default function Header() {
         </p>
         <div className="headerBtncontainer">
           <button type="button" className="headerLocationBtn">
-            <PlaceIcon sx={{ color: '#0E88FA' }} /> Abu Dhabi, UAE
+            <PlaceIcon sx={{ color: '#0E88FA' }} /> Riyadh, Saudi Arabia
           </button>
           <a href="mailto:hello@farhanshakir.com" className="headerEmailBtn">
             <EmailIcon /> hello@farhanshakir.com
