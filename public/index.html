@@ -2,28 +2,21 @@
 <html lang="en">
   <head>
     <script>
-(function () {
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.getRegistrations().then(function (registrations) {
-      registrations.forEach(function (registration) {
-        registration.unregister();
-      });
-    });
-  }
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function(registrations) {
+    for (let registration of registrations) {
+      registration.unregister();
+    }
+  });
 
-  if (window.caches) {
-    caches.keys().then(function (keys) {
-      keys.forEach(function (key) {
-        caches.delete(key);
-      });
+  caches.keys().then(function(cacheNames) {
+    cacheNames.forEach(function(cacheName) {
+      caches.delete(cacheName);
     });
-  }
-})();
+  });
+}
 </script>
 
-    <script>
-  window.location.replace("https://farhanshakir.com");
-</script>
 
     
     <meta charset="utf-8" />
